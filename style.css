@@ -1,0 +1,280 @@
+.main-custom {
+    --color-primary: #EC2127;
+    --color-buttons:linear-gradient(45deg, #EA0B8B, var(--color-primary)) ;
+    --rgba-primary: 236, 33, 39;
+    --color-secondary: #f4f0f5;
+    --color-white: #fff;
+    --color-black: #100f1f;
+    --color-paragraph: #3f3133;
+    --color-border: #dedede;
+    --border-color: 1px solid #8b8b8b;
+    --padding-button: 0.625rem 1rem;
+    --mini-padding-button: 0.425rem 0.8rem;
+    --font-title: "Montserrat", sans-serif;
+    --font-paragraph: "Lato", sans-serif;
+    --font-size-button: 0.875rem;
+    --font-size-title: 1.6rem;
+    --font-size-lg-title: 1rem;
+    --font-size-paragraph: 0.85rem;
+    --font-size-medium-title: 0.85rem;
+    --border-radius-estructures: 1.3rem;
+    --border-radius-button: 0.5rem;
+    --font-button: "Urbanist", sans-serif;
+    --weight-button: 700;
+    --weight-title: 900;
+    --weight-medium-title: 800;
+    --weight-paragraph: 400;
+    --shadow: 0 0 25px 3px rgba(0, 0, 0, .166);
+    --shadow-with-color: 0px 0px 10px 0px;
+    --transition: all 0.3s;
+    --gutter: 20px;
+    box-sizing: inherit;
+    background: #f4f0f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: calc(1320px - 2 * 89px);
+    /* Resta el doble del padding de 89px a 1070px */
+    width: 100%;
+    padding: 40px 89px;
+    /* quitar 40px cuando haya terminado */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* */
+
+.navigation_box_1 {}
+
+.navigation_box_1 .wrapper {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--shadow);
+    background: var(--color-white);
+    border-radius: var(--border-radius-estructures);
+}
+
+.navigation_box_1 .wrapper .box {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-left: 1px solid var(--color-border);
+}
+
+.navigation_box_1 .wrapper .box h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-size-medium-title);
+    font-weight: var(--weight-medium-title);
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_box_1 .wrapper .box h2 svg {
+    width: 20px;
+}
+
+.navigation_box_1 .wrapper .box p {
+    font-family: var(--font-paragraph);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--weight-paragraph);
+    color: var(--color-paragraph);
+    text-wrap: balance;
+}
+
+.navigation_box_1 .wrapper .box a {
+    background: var(--color-buttons);
+    width: fit-content;
+    padding: var(--mini-padding-button);
+    font-size: var(--font-size-paragraph);
+    color: var(--color-white);
+    font-family: var(--font-button);
+    border-radius: var(--border-radius-button);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navigation_box_1 .wrapper .box a svg {
+    width: 17px;
+}
+
+.navigation_box_1 .wrapper .box a:hover {
+    box-shadow: var(--shadow-with-color) var(--color-primary);
+}
+
+/* */
+
+.promotions_2 .wrapper {
+    gap: var(--gutter);
+    width: 100%;
+    display: flex;
+    gap: var(--gutter);
+}
+
+.promotions_2 .wrapper #carousel_promotions {
+    width: 50%;
+}
+
+.promotions_2 .wrapper #carousel_announcements {
+    width: 50%;
+}
+
+.promotions_2 .wrapper swiper-slide:hover .image img {
+    transform: scale(1.07);
+}
+
+.promotions_2 .wrapper swiper-slide:hover .image .discount {
+    box-shadow: var(--shadow-with-color) #F58220;
+}
+
+.promotions_2 .wrapper .image {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius-estructures);
+}
+
+.promotions_2 .wrapper .text {}
+
+.promotions_2 > h1 {
+    font-family: var(--font-title);
+    font-weight: var(--weight-medium-title);
+    font-size: var(--font-size-title);
+    color: var(--color-primary);
+    text-wrap: balance;
+}
+
+.promotions_2 > h3 {
+    font-family: var(--font-paragraph);
+    font-weight: var(--weight-paragraph);
+    margin: 1.8rem 0;
+    font-size: var(--font-size-lg-title);
+    color: var(--color-paragraph);
+    text-wrap: balance;
+}
+
+.promotions_2 .wrapper .text h2 {
+    font-family: var(--font-title);
+    font-weight: var(--weight-medium-title);
+    margin: 1.8rem 0 1.2rem 0;
+    font-size: var(--font-size-lg-title);
+    color: var(--color-black);
+    text-wrap: balance;
+}
+
+.promotions_2 p {
+    font-family: var(--font-paragraph);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--weight-paragraph);
+    color: var(--color-paragraph);
+    text-wrap: balance;
+    line-height: 1.6;
+    margin-bottom: 1.1rem;
+}
+
+.promotions_2 .wrapper .text a {
+    border: 1px solid var(--color-primary);
+    width: fit-content;
+    padding: var(--padding-button);
+    font-size: var(--font-size-paragraph);
+    color: var(--color-primary);
+    font-weight: var(--weight-button);
+    font-family: var(--font-button);
+    border-radius: var(--border-radius-button);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.promotions_2 .wrapper .text a svg {
+    width: 17px;
+}
+
+.promotions_2 .wrapper .text a:hover {
+    background: var(--color-buttons);
+    color: var(--color-white);
+    box-shadow: var(--shadow-with-color) var(--color-primary);
+}
+
+.promotions_2 .wrapper .image .discount {
+    position: absolute;
+    background: #F58220;
+    z-index: 2;
+    padding: var(--padding-button);
+    color: var(--color-white);
+    font-family: var(--font-button);
+    font-size: var(--font-size-medium-title);
+    font-weight: var(--weight-medium-title);
+    transform: rotate(-45deg) translate(-28%, -50%);
+    width: 150px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.promotions_2 .wrapper .image img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.03);
+    transition: var(--transition);
+}
+
+.promotions_2 .wrapper #carousel_announcements .text_announcements {
+    display: flex;
+    gap: var(--gutter);
+    justify-content: space-between;
+}
+
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box svg{
+    width: 40px;
+    color: var(--color-primary);
+    padding-right: 10px;
+    border-right: var(--border-color);
+}
+
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.promotions_2 .wrapper #carousel_announcements .text_announcements .buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.promotions_2 .wrapper #buy {
+    background: var(--color-buttons);
+    color: var(--color-white);
+}
