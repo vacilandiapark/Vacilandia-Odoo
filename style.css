@@ -5,31 +5,27 @@
     --color-secondary: #f4f0f5;
     --color-white: #fff;
     --color-black: #100f1f;
-    --color-paragraph: #3f3133;
+    --color-paragraph: #0A0203;
     --color-border: #dedede;
-    --border-color: 1px solid #8b8b8b;
+    --border-color: 1px solid #E8E6E8;
     --padding-button: 0.625rem 1rem;
     --mini-padding-button: 0.425rem 0.8rem;
-    --font-title: "Montserrat", sans-serif;
-    --font-paragraph: "Lato", sans-serif;
     --font-size-button: 0.875rem;
-    --font-size-title: 1.6rem;
-    --font-size-lg-title: 1rem;
+    --font-size-title: 1.8rem;
+    --font-size-lg-title: 1.1rem;
     --font-size-paragraph: 0.85rem;
     --font-size-medium-title: 0.85rem;
     --border-radius-estructures: 1.3rem;
     --border-radius-button: 0.5rem;
-    --font-button: "Urbanist", sans-serif;
+    --font: "Titillium Web", sans-serif;
     --weight-button: 700;
     --weight-title: 900;
-    --weight-medium-title: 800;
-    --weight-paragraph: 400;
+    --weight-medium-title: 700;
+    --weight-paragraph: 300;
     --shadow: 0 0 25px 3px rgba(0, 0, 0, .166);
     --shadow-with-color: 0px 0px 10px 0px;
     --transition: all 0.3s;
     --gutter: 20px;
-    box-sizing: inherit;
-    background: #f4f0f5;
 }
 
 body {
@@ -43,10 +39,10 @@ a {
 
 #container {
     margin: 0 auto;
-    max-width: calc(1320px - 2 * 89px);
+    max-width: 1320px;
     /* Resta el doble del padding de 89px a 1070px */
     width: 100%;
-    padding: 40px 89px;
+    padding: 60px 0;
     /* quitar 40px cuando haya terminado */
 }
 
@@ -86,7 +82,7 @@ p {
 }
 
 .navigation_box_1 .wrapper .box h2 {
-    font-family: var(--font-title);
+    font-family: var(--font);
     font-size: var(--font-size-medium-title);
     font-weight: var(--weight-medium-title);
     color: var(--color-black);
@@ -100,7 +96,7 @@ p {
 }
 
 .navigation_box_1 .wrapper .box p {
-    font-family: var(--font-paragraph);
+    font-family: var(--font);
     font-size: var(--font-size-paragraph);
     font-weight: var(--weight-paragraph);
     color: var(--color-paragraph);
@@ -113,7 +109,7 @@ p {
     padding: var(--mini-padding-button);
     font-size: var(--font-size-paragraph);
     color: var(--color-white);
-    font-family: var(--font-button);
+    font-family: var(--font);
     border-radius: var(--border-radius-button);
     transition: var(--transition);
     display: flex;
@@ -132,10 +128,9 @@ p {
 /* */
 
 .promotions_2 .wrapper {
-    gap: var(--gutter);
-    width: 100%;
+    width: calc(100% - 40px);
     display: flex;
-    gap: var(--gutter);
+    gap: 40px;
 }
 
 .promotions_2 .wrapper #carousel_promotions {
@@ -151,7 +146,7 @@ p {
 }
 
 .promotions_2 .wrapper swiper-slide:hover .image .discount {
-    box-shadow: var(--shadow-with-color) #F58220;
+    box-shadow: var(--shadow-with-color) var(--color-primary);
 }
 
 .promotions_2 .wrapper .image {
@@ -163,7 +158,7 @@ p {
 .promotions_2 .wrapper .text {}
 
 .promotions_2 > h1 {
-    font-family: var(--font-title);
+    font-family: var(--font);
     font-weight: var(--weight-medium-title);
     font-size: var(--font-size-title);
     color: var(--color-primary);
@@ -171,7 +166,7 @@ p {
 }
 
 .promotions_2 > h3 {
-    font-family: var(--font-paragraph);
+    font-family: var(--font);
     font-weight: var(--weight-paragraph);
     margin: 1.8rem 0;
     font-size: var(--font-size-lg-title);
@@ -180,22 +175,23 @@ p {
 }
 
 .promotions_2 .wrapper .text h2 {
-    font-family: var(--font-title);
+    font-family: var(--font);
     font-weight: var(--weight-medium-title);
-    margin: 1.8rem 0 1.2rem 0;
+    margin: 1.8rem 0 0.7rem 0;
     font-size: var(--font-size-lg-title);
-    color: var(--color-black);
+    color: var(--color-primary);
     text-wrap: balance;
 }
 
 .promotions_2 p {
-    font-family: var(--font-paragraph);
+    font-family: var(--font);
     font-size: var(--font-size-paragraph);
     font-weight: var(--weight-paragraph);
     color: var(--color-paragraph);
     text-wrap: balance;
-    line-height: 1.6;
-    margin-bottom: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.7rem;
+    font-weight: var(--weight-paragraph);
 }
 
 .promotions_2 .wrapper .text a {
@@ -205,7 +201,7 @@ p {
     font-size: var(--font-size-paragraph);
     color: var(--color-primary);
     font-weight: var(--weight-button);
-    font-family: var(--font-button);
+    font-family: var(--font);
     border-radius: var(--border-radius-button);
     transition: var(--transition);
     display: flex;
@@ -225,11 +221,11 @@ p {
 
 .promotions_2 .wrapper .image .discount {
     position: absolute;
-    background: #F58220;
+    background: var(--color-primary);
     z-index: 2;
     padding: var(--padding-button);
     color: var(--color-white);
-    font-family: var(--font-button);
+    font-family: var(--font);
     font-size: var(--font-size-medium-title);
     font-weight: var(--weight-medium-title);
     transform: rotate(-45deg) translate(-28%, -50%);
