@@ -280,6 +280,7 @@
 .atractions .wrapper h2{
     font-size: var(--font-size-lg-title);
     color: var(--color-black);
+    font-weight: var(--weight-medium-title);
 }
 
 .atractions .wrapper h3{
