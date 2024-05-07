@@ -171,7 +171,7 @@
     font-weight: var(--weight-medium-title);
     margin: 1.8rem 0 0.7rem 0;
     font-size: var(--font-size-lg-title);
-    color: var(--color-primary);
+    color: var(--color-black);
     text-wrap: balance;
 }
 
@@ -342,7 +342,7 @@
 
 .atractions .wrapper .image{
     overflow: hidden;
-    height: 350px;
+    height: 316px;
     transition: var(--transition);
 }
 
