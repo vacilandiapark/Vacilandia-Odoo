@@ -274,6 +274,7 @@
     text-align: center;
     font-size: var(--font-size-title);
     color: var(--color-primary);
+    font-weight: var(--weight-title);
 }
 
 .atractions .wrapper h2{
