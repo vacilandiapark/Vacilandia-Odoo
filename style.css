@@ -28,19 +28,17 @@
     --gutter: 20px;
     margin: 0 auto;
     max-width: 1320px;
-    /* Resta el doble del padding de 89px a 1070px */
     width: 100%;
     padding: 40px 0;
-    /* quitar 40px cuando haya terminado */
 }
 
-#container-custom h1,
-#container-custom h2,
-#container-custom h3,
-#container-custom h4,
-#container-custom h5,
-#container-custom h6,
-#container-custom p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 1;
     margin: 0;
     margin-top: 0;
