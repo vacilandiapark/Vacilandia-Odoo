@@ -160,12 +160,11 @@
     line-height: 1.5;
     font-family: var(--font);
     font-weight: unset;
-    min-height: 2rem;
     font-size: var(--font-size-lg-title);
     color: var(--color-paragraph);
     text-wrap: balance;
     margin: 0;
-    margin: 5px 0 30px 0;
+    margin: 10px 0 30px 0;
 }
 
 .promotions_2 .wrapper .text h2 {
