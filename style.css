@@ -1,6 +1,6 @@
-#container-custom {
+.main-custom {
     --color-primary: #EC2127;
-    --color-buttons: linear-gradient(45deg, #EA0B8B, var(--color-primary));
+    --color-buttons:linear-gradient(45deg, #EA0B8B, var(--color-primary)) ;
     --rgba-primary: 236, 33, 39;
     --color-secondary: #f4f0f5;
     --color-white: #fff;
@@ -13,8 +13,8 @@
     --font-size-button: 0.875rem;
     --font-size-title: 1.8rem;
     --font-size-lg-title: 1.1rem;
-    --font-size-paragraph: 0.95rem;
-    --font-size-medium-title: 0.90rem;
+    --font-size-paragraph: 0.85rem;
+    --font-size-medium-title: 0.85rem;
     --border-radius-estructures: 1.3rem;
     --border-radius-button: 0.5rem;
     --font: "Titillium Web", sans-serif;
@@ -26,25 +26,33 @@
     --shadow-with-color: 0px 0px 10px 0px;
     --transition: all 0.3s;
     --gutter: 20px;
+}
+
+.main-custom a {
+    text-decoration: none;
+}
+
+.main-custom #container {
     margin: 0 auto;
     max-width: 1320px;
+    /* Resta el doble del padding de 89px a 1070px */
     width: 100%;
-    padding: 40px 0;
+    padding: 60px 0;
+    /* quitar 40px cuando haya terminado */
 }
 
-
-#container-custom h1,
-#container-custom h2,
-#container-custom h3,
-#container-custom h4,
-#container-custom h5,
-#container-custom h6,
-#container-custom p {
+.main-custom h1,
+.main-custom h2,
+.main-custom h3,
+.main-custom h4,
+.main-custom h5,
+.main-custom h6,
+.main-custom p {
+    line-height: 1;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
     text-align: left;
-}
-
-#container-custom a {
-    text-decoration: none;
 }
 
 /* */
@@ -76,7 +84,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
 }
 
 .navigation_box_1 .wrapper .box h2 svg {
@@ -89,8 +96,6 @@
     font-weight: var(--weight-paragraph);
     color: var(--color-paragraph);
     text-wrap: balance;
-    margin: 0;
-    margin: 10px 0;
 }
 
 .navigation_box_1 .wrapper .box a {
@@ -147,24 +152,21 @@
 
 .promotions_2 .wrapper .text {}
 
-.promotions_2>h1 {
+.promotions_2 > h1 {
     font-family: var(--font);
     font-weight: var(--weight-medium-title);
     font-size: var(--font-size-title);
     color: var(--color-primary);
     text-wrap: balance;
-    margin: 0;
 }
 
-.promotions_2>h3 {
-    line-height: 1.5;
+.promotions_2 > h3 {
     font-family: var(--font);
-    font-weight: unset;
+    font-weight: var(--weight-paragraph);
+    margin: 1.8rem 0;
     font-size: var(--font-size-lg-title);
     color: var(--color-paragraph);
     text-wrap: balance;
-    margin: 0;
-    margin: 10px 0 30px 0;
 }
 
 .promotions_2 .wrapper .text h2 {
@@ -172,18 +174,18 @@
     font-weight: var(--weight-medium-title);
     margin: 1.8rem 0 0.7rem 0;
     font-size: var(--font-size-lg-title);
-    color: var(--color-black);
+    color: var(--color-primary);
     text-wrap: balance;
 }
 
 .promotions_2 p {
     font-family: var(--font);
     font-size: var(--font-size-paragraph);
-    font-weight: unset;
+    font-weight: var(--weight-paragraph);
     color: var(--color-paragraph);
     text-wrap: balance;
-    margin: 0;
-    margin: 20px 0;
+    line-height: 1.4;
+    margin-bottom: 0.7rem;
     font-weight: var(--weight-paragraph);
 }
 
@@ -240,25 +242,25 @@
     justify-content: space-between;
 }
 
-.promotions_2 .wrapper #carousel_announcements .text_announcements .box p {
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box p{
     margin: 0;
     padding-left: 10px;
 }
 
-.promotions_2 .wrapper #carousel_announcements .text_announcements .box svg {
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box svg{
     width: 40px;
     color: var(--color-primary);
     padding-right: 10px;
     border-right: var(--border-color);
 }
 
-.promotions_2 .wrapper #carousel_announcements .text_announcements .box {
+.promotions_2 .wrapper #carousel_announcements .text_announcements .box{
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.promotions_2 .wrapper #carousel_announcements .text_announcements .buttons {
+.promotions_2 .wrapper #carousel_announcements .text_announcements .buttons{
     display: flex;
     gap: 5px;
 }
