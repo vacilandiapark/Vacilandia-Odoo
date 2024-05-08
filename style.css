@@ -39,7 +39,7 @@
     max-width: 1320px;
     /* Resta el doble del padding de 89px a 1070px */
     width: 100%;
-    padding: 40px 0;
+    padding: 7rem 0;
     /* quitar 40px cuando haya terminado */
 }
 
