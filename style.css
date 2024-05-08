@@ -12,6 +12,7 @@
     --mini-padding-button: 0.425rem 0.8rem;
     --font-size-button: 0.9rem;
     --font-size-title: 1.8rem;
+    --font-size-xl-title: 3rem;
     --font-size-lg-title: 1.2rem;
     --font-size-paragraph: 0.85rem;
     --font-size-medium-title: 0.85rem;
@@ -272,7 +273,7 @@
 
 .atractions .wrapper h1{
     text-align: center;
-    font-size: var(--font-size-title);
+    font-size: var(--font-size-xl-title);
     color: var(--color-primary);
     font-weight: var(--weight-medium-title);
 }
@@ -292,7 +293,7 @@
 }
 
 .atractions .wrapper p{
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
 }
 
 .atractions .wrapper a {
@@ -342,7 +343,7 @@
 
 .atractions .wrapper .image{
     overflow: hidden;
-    height: 316px;
+    height: 300px;
     transition: var(--transition);
 }
 
