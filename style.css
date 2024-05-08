@@ -61,7 +61,10 @@
 
 /* */
 
-.navigation_box_1 {}
+.navigation_box_1#container {
+    padding: 0;
+    padding-bottom: 7 rem;
+}
 
 .navigation_box_1 .wrapper {
     display: flex;
