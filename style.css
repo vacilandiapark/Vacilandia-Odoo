@@ -422,7 +422,7 @@ main img{
 
 .atractions .overlay .text h2{
     font-weight: var(--font-wght-bolder);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     color: var(--white);
     margin-top: 0;
 }
