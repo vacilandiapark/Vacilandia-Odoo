@@ -1,1 +1,0 @@
-"# Vacilandia-Odoo" 
