@@ -1,5 +1,6 @@
 const swiperEl = document.getElementById('carrusel-banner')
 const swiperE2 = document.getElementById('carrusel-promotions')
+const swiperE3 = document.getElementById('carrusel-atractions')
 
 const params = {
     injectStyles: [`
@@ -28,6 +29,8 @@ const params = {
 
 Object.assign(swiperEl, params)
 Object.assign(swiperE2, params)
+Object.assign(swiperE3, params)
 
 swiperEl.initialize();
 swiperE2.initialize();
+swiperE3.initialize();

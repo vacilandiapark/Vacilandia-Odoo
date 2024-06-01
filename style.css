@@ -66,6 +66,7 @@ main {
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     /* */
+    --overlay-bg: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
     --radius-button: 0.375rem;
     --radius: 2rem;
     --max-width: 1000px;
@@ -73,14 +74,14 @@ main {
     --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --shadow-color: 0px 7px 29px 0px;
     --transition: all 0.3s;
-    --scale: scale(1.03);
+    --scale: scale(1.04);
     transition: var(--transition);
     font-family: var(--font-primary);
     box-sizing: border-box;
 }
 
-main a{
-    
+main img{
+    filter: saturate(140%);
 }
 
 .banner {
@@ -113,7 +114,7 @@ main a{
 .banner .carrusel .overlay .text {
     width: 100%;
     padding: var(--pm-3);
-    background: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
+    background: var(--overlay-bg);
     color: var(--white);
 }
 
@@ -357,61 +358,71 @@ main a{
 
 /* */
 
-.socio{
+.atractions{
+    text-align: left;
     display: flex;
+    padding: var(--pm-3) 0;
     justify-content: center;
 }
 
-.socio .container{
+.atractions .carrusel-atractions{
     max-width: var(--max-width);
     display: flex;
-    justify-content: center;
-    gap: var(--gap-20);
-    align-items: center;
 }
 
-.socio .container h3{
+.atractions h1{
     font-weight: var(--font-wght-bolder);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     color: var(--black-m);
-    margin: 0;
 }
 
-.socio .container p {
-    font-size: var(--font-size-m);
-    color: var(--black-x);
-    margin: 10px 0 25px 0;
-}
-
-.socio .container a {
-    padding: var(--padding-button);
-    font-size: var(--font-size-x);
-    text-decoration: none;
-    color: var(--white);
-    background: var(--primary);
-    font-weight: var(--font-wght-bold);
+.atractions .card{
     transition: var(--transition);
-    border-radius: var(--radius-button);
-}
-
-.socio .container a:hover {
-    filter: brightness(80%);
-}
-
-.socio .container a:nth-child(2) {
-    background: var(--white);
-    color: var(--primary);
-}
-
-.socio .img-socio{
-    width: 30rem;
-    position: relative;
-    overflow: hidden;
     box-shadow: var(--shadow);
 }
 
-.socio .img-socio img{
+.atractions .image{
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-button);
+    box-shadow: var(--shadow);
+    height: 350px;
+}
+
+.atractions .card:hover .image img{
+    transform: var(--scale);
+}
+
+.atractions .image .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+}
+
+.atractions .image img{
+    transition: var(--transition);
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.atractions .image .overlay .text{
+    width: 100%;
+    padding: var(--pm-1);
+    display: flex;
+    background: var(--overlay-bg);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.atractions .overlay .text h2{
+    font-weight: var(--font-wght-bolder);
+    font-size: var(--font-size-m);
+    color: var(--white);
+    margin-top: 0;
 }
