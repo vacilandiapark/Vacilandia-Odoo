@@ -455,7 +455,7 @@ main img {
 
 .caracteristicas {
     display: flex;
-    padding: var(--pm-3) 0;
+    padding: var(--pm-3) 0 0 0;
     justify-content: center;
     box-sizing: border-box;
 }
