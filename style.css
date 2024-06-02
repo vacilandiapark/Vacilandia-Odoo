@@ -477,6 +477,9 @@ main img {
     box-shadow: var(--shadow);
     cursor: pointer;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .caracteristicas .box h2 {
