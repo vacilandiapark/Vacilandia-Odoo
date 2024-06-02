@@ -201,7 +201,7 @@ main img {
 
 .navigation .container .box {
     flex: 1;
-    padding: var(--pm-1) var(--pm-3);
+    padding: var(--pm-1);
     display: flex;
     text-decoration: none;
     justify-content: center;
