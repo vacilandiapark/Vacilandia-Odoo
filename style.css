@@ -455,7 +455,7 @@ main img {
 
 .caracteristicas {
     display: flex;
-    padding: var(--pm-3) 0 0 0;
+    padding: 0 0 var(--pm-3) 0;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -480,7 +480,7 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--gap-5);
+    gap: var(--gap-10);
 }
 
 .caracteristicas .box h2 {
