@@ -189,7 +189,7 @@ main img {
     text-align: center;
 }
 
-.navigation .line{
+.navigation .line {
     height: 10px;
     width: 100%;
     background: linear-gradient(to right, var(--red), var(--pink), var(--orange), var(--yellow), var(--green), var(--cyan), var(--lilac), var(--purple));
@@ -453,3 +453,40 @@ main img {
 
 /* */
 
+.caracteristicas {
+    display: flex;
+    padding: var(--pm-3) 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.caracteristicas .container {
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-15);
+}
+
+.caracteristicas .box {
+    flex: 1;
+    text-align: center;
+    background: var(--white);
+    padding: var(--pm-1);
+    border-radius: var(--radius-button);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.caracteristicas .box h2 {
+    font-size: var(--font-size-s);
+    color: var(--black);
+    text-wrap: balance;
+    margin-bottom: 0;
+    font-family: var(--font-terciary);
+}
+
+.caracteristicas .box svg{
+    color: var(--primary);
+}
