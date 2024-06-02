@@ -387,7 +387,7 @@ main img {
     overflow: hidden;
     border-radius: var(--radius-button);
     box-shadow: var(--shadow);
-    height: 350px;
+    height: 300px;
 }
 
 .atractions .card:hover .image img {
@@ -446,3 +446,6 @@ main img {
     color: var(--white);
     margin: 0;
 }
+
+/* */
+
