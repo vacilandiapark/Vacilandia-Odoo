@@ -187,14 +187,18 @@ main img {
 
 .navigation {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    border-top: 3px solid var(--primary);
+}
+
+.navigation .line{
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, var(--red), var(--pink), var(--orange), var(--yellow), var(--green), var(--cyan), var(--lilac), var(--purple));
 }
 
 .navigation .container {
     width: var(--max-width);
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     box-sizing: border-box;
 }
