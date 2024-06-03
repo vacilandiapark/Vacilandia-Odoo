@@ -80,10 +80,6 @@ main {
     box-sizing: border-box;
 }
 
-main img {
-    filter: saturate(140%);
-}
-
 .banner {
     width: var(--max-width-full);
     text-align: left;
@@ -180,7 +176,6 @@ main img {
     height: var(--max-width-full);
     object-fit: cover;
     transition: var(--transition);
-    filter: saturate(130%);
 }
 
 /* */
