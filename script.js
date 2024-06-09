@@ -3,7 +3,12 @@ const swiperE2 = document.getElementById('carrusel-promotions')
 const swiperE3 = document.getElementById('carrusel-atractions')
 
 const params = {
-    injectStyles: [`
+  injectStyles: [`
+
+      .swiper{
+      overflow: visible;
+      }
+
       .swiper-button-next,
       .swiper-button-prev{
         background: rgba(0,0,0, 0.9);

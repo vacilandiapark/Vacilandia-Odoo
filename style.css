@@ -4,11 +4,16 @@ body {
     background: var(--gray-light);
 }
 
+.swiper{
+    overflow: none !important;
+}
+
 main {
+    overflow: hidden;
 
     /* COLORES */
-    --primary: #EA0B8B;
-    --secondary: #EC2127;
+    --primary: var(--pink);
+    --secondary: #89187B;
     --lilac: #724C9F;
     --rgba-lilac: 114, 76, 159;
     --purple: #432F87;
@@ -45,7 +50,7 @@ main {
     --font-size-x: 0.700rem;
     --font-secondary: "Onest", sans-serif;
     --font-primary: "Urbanist", sans-serif;
-    --font-terciary: "Lato", sans-serif;
+    --font-terciary: "Titillium Web", sans-serif;
     --font-wght-bolder: 900;
     --font-wght-bold: 600;
     --font-wght-light: 400;
@@ -68,9 +73,10 @@ main {
     /* */
     --overlay-bg: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
     --radius-button: 0.375rem;
-    --radius: 2rem;
+    --radius: 1.5rem;
     --max-width: 1000px;
     --max-width-full: 100%;
+    --shadow-cards: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
     --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --shadow-color: 0px 7px 29px 0px;
     --transition: all 0.3s;
@@ -252,108 +258,183 @@ main {
     text-align: left;
     display: flex;
     padding: var(--pm-3) 0;
+    transition: var(--transition);
+}
+
+.promotions swiper-slide{
+    transition: var(--transition);
+}
+
+.promotions swiper-slide:hover {
+    transform: var(--scale);
+}
+
+.promotions swiper-slide:hover .image img {
+    transform: var(--scale);
 }
 
 .promotions .carrusel-promotions {
     max-width: var(--max-width);
-    display: flex;
+    width: var(--max-width-full);
+}
+
+.promotions .card {
+    overflow: hidden;
+    width: 100%;
+    box-shadow: var(--shadow-cards);
+    border-radius: var(--radius);
+    transition: var(--transition);
 }
 
 .promotions .image {
-    position: relative;
-    overflow: hidden;
+    width: 100%;
 }
 
 .promotions .image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
     transition: var(--transition);
 }
 
-.promotions .card {
-    border-radius: var(--radius-button);
-    overflow: hidden;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
-    background: var(white);
-}
-
-.promotions .card .text {
+.promotions .text {
+    box-sizing: border-box;
     padding: var(--pm-1);
 }
 
-.promotions .image span {
-    position: absolute;
-    bottom: 0;
-    font-family: var(--font-terciary);
-    left: 0;
-    background: var(--yellow);
-    color: var(--black);
-    margin: var(--pm-1);
-    padding: var(--padding-labels);
-    font-size: var(--font-size-x);
-    border-radius: var(--radius-button);
-    font-weight: var(--font-wght-bold);
-}
-
-.promotions .text span {
+.promotions .text h1 {
+    margin: 0;
     font-size: var(--font-size-m);
+    color: var(--orange);
     font-weight: var(--font-wght-bold);
-    color: var(--primary);
-    font-family: var(--font-terciary);
-}
-
-.promotions .text #reg {
-    text-decoration: line-through;
-    font-weight: var(--font-wght-light);
-    color: var(--secondary);
-    font-size: var(--font-size-s);
-}
-
-.promotions .text h2 {
-    font-weight: var(--font-wght-bold);
-    font-size: var(--font-size-s);
-    color: var(--black);
-    margin-top: 0;
+    margin: 0 0 10px 0;
 }
 
 .promotions .text p {
     font-size: var(--font-size-s);
-    color: var(--black-x);
-    margin: 10px 0 15px 0;
+    color: var(--black-m);
+    margin: 0 0 20px 0;
 }
 
-.promotions .buttons {
+.promotions .text #terms {
+    display: flex;
+    gap: var(--gap-5);
+    align-items: center;
+    width: fit-content;
+    padding: var(--padding-labels);
+    font-size: var(--font-size-x);
+    text-decoration: none;
+    color: var(--secondary);
+    border-radius: var(--radius-button);
+    background: var(--gray-light);
+    font-weight: var(--font-wght-bold);
+    transition: var(--transition);
+}
+
+.promotions .persons {
+    padding: 0 0 10px 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid var(--gray-dark);
+}
+
+.promotions .persons h2 {
+    font-size: var(--font-size-x);
+    color: var(--black-x);
+    font-weight: var(--font-wght-light);
+    margin: 10px 0 0 0;
+}
+
+.promotions .price {
+    padding: 15px 0 0 0;
+    display: flex;
+    border-top: 1px solid var(--gray-dark);
+    justify-content: space-between;
+}
+
+.promotions .price p {
+    display: flex;
+    font-size: var(--font-size-m);
+    font-weight: var(--font-wght-bold);
+    color: var(--primary);
+    flex-direction: column;
+    text-align: right;
+    font-family: var(--font-terciary);
+}
+
+.promotions .price p span {
+    font-size: var(--font-size-s);
+    text-decoration: line-through;
+    font-weight: var(--font-wght-light);
+}
+
+.promotions .price h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: var(--font-size-m);
+}
+
+.promotions .price h2 span {
+    font-size: var(--font-size-x);
+    font-weight: var(--font-wght-light);
+}
+
+.promotions .others {
+    border-top: 1px solid var(--gray-dark);
+}
+
+.promotions .others h3 {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-wght-bolder);
+    color: var(--black);
+}
+
+.promotions .others .box {
     display: flex;
     gap: var(--gap-5);
 }
 
-.promotions .buttons a {
-    padding: var(--padding-button);
-    font-size: var(--font-size-x);
-    text-decoration: none;
-    color: var(--white);
-    background: var(--primary);
+.promotions .others a {
+    padding: var(--padding-labels);
+    font-size: var(--font-size-s);
     font-weight: var(--font-wght-bold);
-    transition: var(--transition);
     border-radius: var(--radius-button);
-}
-
-.promotions .buttons a:hover {
-    filter: brightness(80%);
-}
-
-.promotions .buttons a:nth-child(2) {
-    background: var(--white);
-    color: var(--primary);
-}
-
-.promotions .image img {
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: var(--scale);
+}
+
+.promotions #vaope {
+    background: #E2346C;
+}
+
+.promotions #joinnus {
+    background: #05F2AF;
+}
+
+.promotions #cuponidad {
+    background: #ffaa00;
+}
+
+.promotions .button {
+    display: flex;
+    justify-content: center;
+}
+
+.promotions .button a {
+    width: 100%;
+    padding: var(--padding-button);
+    font-size: var(--font-size-s);
+    font-weight: var(--font-wght-bold);
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    background: var(--primary);
+    transition: var(--transition);
+}
+
+.promotions .card:hover .button a {
+    background: var(--gray-light);
+    color: var(--black-m);
 }
 
 /* */
@@ -486,6 +567,8 @@ main {
     font-family: var(--font-terciary);
 }
 
-.caracteristicas .box svg{
+.caracteristicas .box svg {
     color: var(--primary);
 }
+
+/* */
