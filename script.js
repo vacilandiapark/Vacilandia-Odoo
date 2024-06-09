@@ -11,10 +11,13 @@ const params = {
 
       .swiper-button-next,
       .swiper-button-prev{
-        background: rgba(0,0,0, 0.9);
-        padding: 2px;
+        background: #fff;
+        padding: 2px 10px;
+        border-radius: 50%;
         z-index: 2;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.15);
+        transition: all 0.3s;
+        border: 1px solid #999;
       }
 
       .swiper-button-next:hover,
@@ -22,9 +25,14 @@ const params = {
         background: rgba(0,0,0,1);
       }
 
+      .swiper-button-next:hover svg,
+      .swiper-button-prev:hover svg{
+        color: white;
+      }
+
       .swiper-button-next svg,
       .swiper-button-prev svg{
-        color: white;
+        color: black;
         width: 8px;
         text-align: center;
       }

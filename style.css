@@ -33,6 +33,7 @@ main {
     --black: #0a0a0a;
     --rgba-black: 10, 10, 10;
     --white: #FFFAFA;
+    --white-full: #FFFFFF;
     --rgba-white: 255, 250, 250;
     --green-light: #D2D90B;
     --rgba-green-light: 210, 217, 11;
@@ -281,13 +282,15 @@ main {
 .promotions .card {
     overflow: hidden;
     width: 100%;
+    background: var(--white-full);
     box-shadow: var(--shadow-cards);
-    border-radius: var(--radius);
     transition: var(--transition);
+    border-radius: var(--radius);
 }
 
 .promotions .image {
     width: 100%;
+    position: relative;
 }
 
 .promotions .image img {
@@ -387,7 +390,7 @@ main {
 .promotions .others h3 {
     font-size: var(--font-size-s);
     font-weight: var(--font-wght-bolder);
-    color: var(--black);
+    color: var(--black-x);
     margin: 15px 0 15px 0;
 }
 
@@ -471,7 +474,7 @@ main {
     overflow: hidden;
     border-radius: var(--radius-button);
     box-shadow: var(--shadow);
-    height: 300px;
+    height: 350px;
 }
 
 .atractions .card:hover .image img {
