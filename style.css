@@ -12,7 +12,7 @@ main {
     overflow: hidden;
 
     /* COLORES */
-    --primary: var(--pink);
+    --primary: var(--red);
     --secondary: #89187B;
     --lilac: #724C9F;
     --rgba-lilac: 114, 76, 159;
