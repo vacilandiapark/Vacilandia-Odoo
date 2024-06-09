@@ -9,7 +9,6 @@ body {
 }
 
 main {
-    overflow: hidden;
 
     /* COLORES */
     --primary: var(--pink);
