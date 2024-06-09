@@ -87,6 +87,10 @@ main {
     box-sizing: border-box;
 }
 
+main img{
+    filter: saturate(150%);
+}
+
 .banner {
     width: var(--max-width-full);
     text-align: left;
