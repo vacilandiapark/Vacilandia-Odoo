@@ -9,7 +9,6 @@ body {
 }
 
 main {
-    overflow: hidden;
 
     /* COLORES */
     --primary: var(--pink);
@@ -222,7 +221,7 @@ main {
 }
 
 .navigation .box:hover {
-    background: var(--primary);
+    background: linear-gradient(to top left, var(--primary), var(--orange));
     color: var(--white);
     box-shadow: var(--shadow-color) var(--primary);
     border: none;
