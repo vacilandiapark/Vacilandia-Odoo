@@ -12,8 +12,8 @@ main {
     overflow: hidden;
 
     /* COLORES */
-    --primary: #89187B;
-    --secondary: var(--pink);
+    --primary: #e00071;
+    --secondary: #89187B;
     --lilac: #724C9F;
     --rgba-lilac: 114, 76, 159;
     --purple: #432F87;
