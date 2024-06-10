@@ -44,6 +44,7 @@ main {
     --black-x: #666666;
     --black-m: #2e2e2e;
     --bg-button: ;
+    --bg-secondary: rgb(246, 246, 246);
     /* ESTILOS FUENTES */
     --font-size-xxl: 3rem;
     --font-size-xl: 1.8rem;
@@ -266,6 +267,7 @@ main img{
     display: flex;
     padding: var(--pm-3) 0;
     transition: var(--transition);
+    background: linear-gradient(to top, var(--white-full) 25%, var(--bg-secondary) 0%);
 }
 
 .promotions swiper-slide{
@@ -299,7 +301,7 @@ main img{
     --black-m: var(--white);
     --black: var(--white);
     --black-x: var(--white);
-    --primary: var(--white);
+    --primary: var(--cyan);
 }
 
 .promotions .image {
