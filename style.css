@@ -475,6 +475,7 @@ main img{
 .atractions p{
     text-align: center;
     font-size: var(--font-size-m);
+    font-weight: var(--font-wght-bold);
     color: var(--black-m);
     font-family: var(--secondary);
     margin: 10px 0 var(--pm-2) 0;
