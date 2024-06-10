@@ -267,7 +267,6 @@ main img{
     display: flex;
     padding: var(--pm-3) 0;
     transition: var(--transition);
-    background: linear-gradient(to top, var(--white-full) 25%, var(--bg-secondary) 0%);
 }
 
 .promotions swiper-slide{
