@@ -320,12 +320,13 @@ main img{
     margin: 0;
     font-size: var(--font-size-m);
     color: var(--orange);
+    font-family: var(--font-terciary);
     font-weight: var(--font-wght-bold);
     margin: 0 0 10px 0;
 }
 
 .promotions .text p {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
     color: var(--black-m);
     margin: 0 0 20px 0;
 }
@@ -369,7 +370,7 @@ main img{
 .promotions .price p {
     display: flex;
     margin: 0;
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
     font-weight: var(--font-wght-bold);
     color: var(--primary);
     flex-direction: column;
@@ -378,7 +379,7 @@ main img{
 }
 
 .promotions .price p span {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
     text-decoration: line-through;
     font-weight: var(--font-wght-light);
 }
@@ -389,7 +390,7 @@ main img{
     font-weight: var(--font-wght-bolder);
     margin: 0;
     color: var(--black);
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-s);
 }
 
 .promotions .price h2 span {
@@ -415,7 +416,7 @@ main img{
 
 .promotions .others a {
     padding: var(--padding-labels);
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
     font-weight: var(--font-wght-bold);
     border-radius: var(--radius-button);
     color: var(--white);
