@@ -623,7 +623,7 @@ main img{
     overflow: hidden;
     box-shadow: var(--shadow-cards);
     border-radius: var(--radius);
-    display: flex;
+    display: flex !important;
     align-items: center;
     height: 200px;
     transition: var(--transition);
