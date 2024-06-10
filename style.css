@@ -295,7 +295,11 @@ main img{
 }
 
 .promotions .card#best-promo{
-    outline: 2px solid var(--primary)
+    background: var(--secondary);
+    --black-m: var(--white);
+    --black: var(--white);
+    --black-x: var(--white);
+    --primary: var(--cyan);
 }
 
 .promotions .image {
@@ -385,6 +389,7 @@ main img{
     flex-direction: column;
     font-weight: var(--font-wght-bolder);
     margin: 0;
+    color: var(--black);
     font-size: var(--font-size-m);
 }
 
