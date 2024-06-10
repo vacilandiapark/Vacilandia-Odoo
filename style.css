@@ -52,6 +52,7 @@ main {
     --font-size-m: 1rem;
     --font-size-s: 0.775rem;
     --font-size-x: 0.700rem;
+    --font-size-xs: 0.600rem;
     --font-secondary: "Onest", sans-serif;
     --font-primary: "Urbanist", sans-serif;
     --font-terciary: "Titillium Web", sans-serif;
@@ -196,6 +197,11 @@ main img{
 
 .navigation {
     text-align: center;
+    background: var(--white-full);
+}
+
+.navigation .box{
+    background: var(--white-full);
 }
 
 .navigation .line {
@@ -229,7 +235,7 @@ main img{
 }
 
 .navigation .box:hover {
-    background: linear-gradient(to top left, var(--primary), var(--secondary));
+    background: var(--secondary);
     color: var(--white);
     box-shadow: var(--shadow-color) var(--primary);
     border: none;
@@ -295,14 +301,6 @@ main img{
     border-radius: var(--radius);
 }
 
-.promotions .card#best-promo{
-    background: var(--secondary);
-    --black-m: var(--white);
-    --black: var(--white);
-    --black-x: var(--white);
-    --primary: var(--cyan);
-}
-
 .promotions .image {
     width: 100%;
     position: relative;
@@ -338,9 +336,9 @@ main img{
     align-items: center;
     width: fit-content;
     padding: var(--padding-labels);
-    font-size: var(--font-size-x);
+    font-size: var(--font-size-xs);
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--black-m);
     border-radius: var(--radius-button);
     background: var(--gray-light);
     font-weight: var(--font-wght-bold);
@@ -349,7 +347,7 @@ main img{
 
 .promotions .persons {
     padding: 0 0 10px 0;
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
     border-top: 1px solid var(--gray-dark);
 }
 
