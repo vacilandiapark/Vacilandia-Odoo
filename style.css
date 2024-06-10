@@ -483,7 +483,7 @@ main img{
 
 .atractions .card {
     transition: var(--transition);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-cards);
 }
 
 .atractions .image {
