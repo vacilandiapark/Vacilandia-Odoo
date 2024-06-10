@@ -294,6 +294,10 @@ main img{
     border-radius: var(--radius);
 }
 
+.promotions .card#best-promo{
+    outline: 2px solid var(--primary)
+}
+
 .promotions .image {
     width: 100%;
     position: relative;
