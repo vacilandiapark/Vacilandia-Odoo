@@ -299,7 +299,7 @@ main img{
     --black-m: var(--white);
     --black: var(--white);
     --black-x: var(--white);
-    --primary: var(--cyan);
+    --primary: var(--white);
 }
 
 .promotions .image {
