@@ -45,7 +45,8 @@ main {
     --black-m: #2e2e2e;
     --bg-button: ;
     /* ESTILOS FUENTES */
-    --font-size-xl: 3rem;
+    --font-size-xxl: 3rem;
+    --font-size-xl: 1.8rem;
     --font-size-l: 1.5rem;
     --font-size-m: 1rem;
     --font-size-s: 0.775rem;
@@ -465,8 +466,18 @@ main img{
 
 .atractions h1 {
     font-weight: var(--font-wght-bolder);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-xl);
+    text-align: center;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.atractions p{
+    text-align: center;
+    font-size: var(--font-size-m);
     color: var(--black-m);
+    font-family: var(--secondary);
+    margin: 10px 0 var(--pm-2) 0;
 }
 
 .atractions .card {
