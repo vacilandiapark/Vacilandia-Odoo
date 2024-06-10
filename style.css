@@ -13,7 +13,7 @@ main {
 
     /* COLORES */
     --primary: #89187B;
-    --secondary: #EA0B8B;
+    --secondary: var(--yellow);
     --lilac: #724C9F;
     --rgba-lilac: 114, 76, 159;
     --purple: #432F87;
