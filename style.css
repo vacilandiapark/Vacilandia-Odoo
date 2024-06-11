@@ -620,7 +620,7 @@ main img{
 }
 
 .servicios .card-custom{
-    height: calc(100% + 10px) !important;
+    height: 230px !important;
     overflow: hidden;
     box-shadow: var(--shadow-card-customs);
     border-radius: var(--radius);
