@@ -98,15 +98,20 @@ main img{
 .banner {
     width: var(--max-width-full);
     text-align: left;
+    display: flex;
+    justify-content: center;
 }
 
 .banner .carrusel {
+    width: var(--max-width-full);
+    margin: 0 auto;
+    max-width: var(--max-width);
     cursor: grab;
 }
 
 .banner .carrusel .image {
     width: var(--max-width-full);
-    height: 85vh;
+    height: 370px;
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow);
@@ -124,7 +129,7 @@ main img{
 
 .banner .carrusel .overlay .text {
     width: 100%;
-    padding: var(--pm-4);
+    padding: var(--pm-2);
     background: var(--overlay-bg);
     color: var(--white);
 }
@@ -148,7 +153,7 @@ main img{
 .banner .carrusel h2 {
     margin: 0;
     font-weight: var(--font-wght-bolder);
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-l);
 }
 
 .banner .carrusel p {
