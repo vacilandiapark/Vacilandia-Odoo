@@ -46,7 +46,7 @@ main {
     --bg-button: ;
     --bg-secondary: rgb(246, 246, 246);
     /* ESTILOS FUENTES */
-    --font-size-xxl: 3rem;
+    --font-size-xxl: 2rem;
     --font-size-xl: 1.8rem;
     --font-size-l: 1.5rem;
     --font-size-m: 0.9rem;
@@ -81,7 +81,7 @@ main {
     --radius: 1.5rem;
     --max-width: 1000px;
     --max-width-full: 100%;
-    --shadow-cards: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
+    --shadow-card-customs: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
     --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --shadow-color: 0px 7px 29px 0px;
     --transition: all 0.3s;
@@ -124,7 +124,7 @@ main img{
 
 .banner .carrusel .overlay .text {
     width: 100%;
-    padding: var(--pm-3);
+    padding: var(--pm-4);
     background: var(--overlay-bg);
     color: var(--white);
 }
@@ -148,11 +148,12 @@ main img{
 .banner .carrusel h2 {
     margin: 0;
     font-weight: var(--font-wght-bolder);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-xxl);
 }
 
 .banner .carrusel p {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-m);
+    text-wrap: balance;
     color: var(--gray-light);
     margin: 10px 0 15px 0;
 }
@@ -291,11 +292,11 @@ main img{
     width: var(--max-width-full);
 }
 
-.promotions .card {
+.promotions .card-custom {
     overflow: hidden;
     width: 100%;
     background: var(--white-full);
-    box-shadow: var(--shadow-cards);
+    box-shadow: var(--shadow-card-customs);
     transition: var(--transition);
     border-radius: var(--radius);
 }
@@ -453,7 +454,7 @@ main img{
     transition: var(--transition);
 }
 
-.promotions .card:hover .button a {
+.promotions .card-custom:hover .button a {
     background: var(--gray-light);
     color: var(--black-m);
 }
@@ -490,9 +491,9 @@ main img{
     margin: 5px 0 var(--pm-2) 0;
 }
 
-.atractions .card {
+.atractions .card-custom {
     transition: var(--transition);
-    box-shadow: var(--shadow-cards);
+    box-shadow: var(--shadow-card-customs);
 }
 
 .atractions .image {
@@ -503,7 +504,7 @@ main img{
     height: 350px;
 }
 
-.atractions .card:hover .image img {
+.atractions .card-custom:hover .image img {
     transform: var(--scale);
 }
 
@@ -618,10 +619,10 @@ main img{
     display: flex;
 }
 
-.servicios .card{
-    height: calc(100% + 10px);
+.servicios .card-custom{
+    height: calc(100% + 10px) !important;
     overflow: hidden;
-    box-shadow: var(--shadow-cards);
+    box-shadow: var(--shadow-card-customs);
     border-radius: var(--radius);
     display: flex !important;
     align-items: center;
@@ -630,23 +631,23 @@ main img{
 }
 
 
-.servicios .card:hover .image img{
+.servicios .card-custom:hover .image img{
     transform: var(--scale);
 }
 
-.servicios .card img{
+.servicios .card-custom img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
 }
 
-.servicios .card .image{
+.servicios .card-custom .image{
     width: 50%;
     overflow: hidden;
 }
 
-.servicios .card .text{
+.servicios .card-custom .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -656,14 +657,14 @@ main img{
     height: 100%;
 }
 
-.servicios .card .text h2{
+.servicios .card-custom .text h2{
     margin: 0;
     font-size: var(--font-size-m);
     color: var(--secondary);
     font-weight: var(--font-wght-bolder);
 }
 
-.servicios .card .text p{
+.servicios .card-custom .text p{
     font-size: var(--font-size-s);
     color: var(--black-m);
     text-align: left;
@@ -671,7 +672,7 @@ main img{
     margin: 15px 0 15px 0;
 }
 
-.servicios .card .text a {
+.servicios .card-custom .text a {
     display: blox;
     width: fit-content;
     padding: var(--padding-button);
@@ -686,7 +687,7 @@ main img{
     box-sizing: border-box;
 }
 
-.servicios .card:hover .text a {
+.servicios .card-custom:hover .text a {
     background: var(--gray-light);
     color: var(--black-m);
 }
