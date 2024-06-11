@@ -611,7 +611,27 @@ main img{
     text-align: left;
     display: flex;
     padding: var(--pm-3) 0;
+    background-image: linear-gradient(to left, var(--orange), var(--red), var(--pink));
+    background-size: 200% 200%;
+    background-attachment: fixed;
+    animation: gradient 5s ease infinite;
+    animation-delay: 1s;
     justify-content: center;
+    box-shadow: inset var(--shadow);
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 0%;
+    }
+
+    50%{
+        background-position: 100% 100%;
+    }
+
+    100%{
+        background-position: 0% 0%;
+    }
 }
 
 .servicios .carrusel-servicios {
@@ -648,6 +668,7 @@ main img{
 }
 
 .servicios .card-custom .text{
+    background: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -696,7 +717,7 @@ main img{
     font-weight: var(--font-wght-bold);
     font-size: var(--font-size-xl);
     text-align: center;
-    color: var(--secondary);
+    color: var(--white);
     font-family: var(--font-terciary);
     margin: 0;
 }
@@ -706,6 +727,6 @@ main img{
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-bold);
-    color: var(--black-m);
+    color: var(--white);
     margin: 5px 0 var(--pm-2) 0;
 }
