@@ -7,9 +7,9 @@ const params = {
   injectStyles: [`
 
       .swiper{
-      overflow: visible;
+        overflow: visible;
       }
-
+      
       .swiper-button-next,
       .swiper-button-prev{
         background: #fff;
