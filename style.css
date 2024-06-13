@@ -61,7 +61,7 @@ main {
     --font-wght-light: 400;
     /* ESPACIADOS */
     --pm-1: 1rem;
-    --pm-2: 3rem;
+    --pm-2: 2rem;
     --pm-3: 3rem;
     --pm-4: 4rem;
     --pm-5: 5rem;
@@ -763,7 +763,9 @@ main img{
     text-align: left;
     flex-direction: column;
     gap: var(--gap-20);
+    border-right: 1px solid var(--gray-light);
     width: 50%;
+    padding: 0 var(--pm-2);
 }
 
 .gastronomia .container .carta .box{
