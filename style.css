@@ -912,3 +912,24 @@ main img{
     color: var(--black-m);
     margin: 5px 0 var(--pm-2) 0;
 }
+
+.reseñas{
+    padding: var(--pm-3) 0;
+    text-align: center;
+}
+
+.reseñas .container{
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseñas .container .carrusel-reseñas{
+    display: flex;
+}
+
+.reseñas .container .box{
+    width: 300px;
+}
