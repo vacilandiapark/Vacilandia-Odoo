@@ -482,7 +482,7 @@ main img{
     font-weight: var(--font-wght-bold);
     font-size: var(--font-size-xl);
     text-align: center;
-    color: var(--secondary);
+    color: var(--orange);
     font-family: var(--font-terciary);
     margin: 0;
 }
@@ -807,6 +807,7 @@ main img{
     color: var(--primary);
     text-decoration: none;
     font-size: var(--font-size-m);
+    padding: var(--padding-button);
     font-weight: bold;
     font-family: var(--font-terciary);
 }
@@ -888,7 +889,7 @@ main img{
 }
 
 .gastronomia .banner-carta .text .button a:nth-child(2) {
-    background: var(--white);
+    background: transparent;
     color: var(--primary);
 }
 
@@ -896,7 +897,7 @@ main img{
     font-weight: var(--font-wght-bold);
     font-size: var(--font-size-xl);
     text-align: center;
-    color: var(--secondary);
+    color: var(--orange);
     font-family: var(--font-terciary);
     margin: 0;
 }
