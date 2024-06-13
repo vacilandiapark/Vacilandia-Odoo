@@ -73,6 +73,9 @@ main {
     --gap-10: 10px;
     --gap-15: 15px;
     --gap-20: 20px;
+    --gap-25: 25px;
+    --gap-30: 30px;
+    --gap-35: 35px;
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     /* */
@@ -82,7 +85,7 @@ main {
     --max-width: 1000px;
     --max-width-full: 100%;
     --shadow-card-customs: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --shadow: 0.625rem 1.5rem 3.5rem 0 rgba(0,0,0,0.1215686275);
     --shadow-color: 0px 7px 29px 0px;
     --transition: all 0.3s;
     --scale: scale(1.04);
@@ -732,5 +735,166 @@ main img{
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-bold);
     color: var(--white);
+    margin: 5px 0 var(--pm-2) 0;
+}
+
+.gastronomia{
+    padding: var(--pm-3);
+}
+
+.gastronomia .container{
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    display: flex;
+    gap: var(--gap-35);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.gastronomia .container .carta{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-20);
+    width: 50%;
+}
+
+.gastronomia .container .carta .box{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.gastronomia .container .carta .box:hover{
+    box-shadow: var(--shadow-card-customs);
+}
+
+.gastronomia .container .carta .box .image{
+    width: 150px;
+    height: 100px;
+    border-radius: var(--radius-button);
+}
+
+.gastronomia .container .carta .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gastronomia .container .carta .box .text{
+    padding: var(--pm-1);
+    background: var(--white-full);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.gastronomia .container .carta a{
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gastronomia .container .carta .box .text h2{
+    margin: 0;
+    font-weight: var(--font-wght-bold);
+    font-size: var(--font-size-m);
+    font-family: var(--font-terciary);
+    color: var(--black-m);
+}
+
+.gastronomia .container .carta .box .text p{
+    font-size: var(--font-size-s);
+    color: var(--black-x);
+    margin: 5px 0 0 0;
+}
+
+.gastronomia .banner-carta{
+    width: 50%;
+}
+
+.gastronomia .banner-carta .image-carta{
+    width: 100%;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.gastronomia .banner-carta .image-carta img{
+    transform: scale(1.04);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.gastronomia .banner-carta .image-carta:hover img{
+    transform: scale(1.07);
+}
+
+.gastronomia .banner-carta .text{
+    padding: var(--pm-1) 0;
+}
+
+.gastronomia .banner-carta .text h3{
+    font-weight: var(--font-wght-bold);
+    margin: 5px 0 0 0;
+    font-size: var(--font-size-m);
+    color: var(--black);
+    font-family: var(--font-terciary);
+}
+
+.gastronomia .banner-carta .text p{
+    font-size: var(--font-size-s);
+    color: var(--black-m);
+    margin: 10px 0 15px 0;
+}
+
+.gastronomia .banner-carta .text .button{
+    display: flex;
+    gap: var(--gap-5);
+}
+
+.gastronomia .banner-carta .text .button a{
+    display: block;
+    width: fit-content;
+    padding: var(--padding-button);
+    font-size: var(--font-size-s);
+    font-weight: var(--font-wght-bold);
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    background: var(--primary);
+    transition: var(--transition);
+    border-radius: var(--radius-button);
+    box-sizing: border-box;
+}
+
+.gastronomia .banner-carta .text .button a:nth-child(2) {
+    background: var(--white);
+    color: var(--primary);
+}
+
+.gastronomia h1 {
+    font-weight: var(--font-wght-bold);
+    font-size: var(--font-size-xl);
+    text-align: center;
+    color: var(--secondary);
+    font-family: var(--font-terciary);
+    margin: 0;
+}
+
+.gastronomia h4{
+    text-align: center;
+    font-size: var(--font-size-m);
+    font-family: var(--font-terciary);
+    font-weight: var(--font-wght-bold);
+    color: var(--black-m);
     margin: 5px 0 var(--pm-2) 0;
 }
