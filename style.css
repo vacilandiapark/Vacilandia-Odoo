@@ -968,6 +968,7 @@ main video{
     box-shadow: var(--shadow);
     border-radius: var(--radius);
     flex: 1;
+    transition: var(--transition);
 }
 
 .reseñas .container .box h2{
@@ -1002,6 +1003,7 @@ main video{
     display: flex;
     align-items: center;
     gap: var(--gap-15);
+    transition: var(--transition);
 }
 
 .reseñas .container .sitios-rating .box2 img{
@@ -1026,4 +1028,9 @@ main video{
     color: var(--primary);
     font-size: var(--font-size-x);
     font-weight: bold;
+}
+
+.reseñas .box:hover,
+.reseñas .box2:hover{
+    box-shadow: var(--shadow-card-customs);
 }
