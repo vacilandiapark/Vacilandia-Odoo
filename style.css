@@ -491,7 +491,7 @@ main img{
     text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     color: var(--black-m);
     margin: 5px 0 var(--pm-2) 0;
 }
@@ -904,11 +904,11 @@ main img{
     margin: 0;
 }
 
-.gastronomia h4{
+.gastronomia > h4{
     text-align: center;
     font-size: var(--font-size-m);
+    font-weight: var(--font-wght-light);
     font-family: var(--font-terciary);
-    font-weight: var(--font-wght-bold);
     color: var(--black-m);
     margin: 5px 0 var(--pm-2) 0;
 }
@@ -918,18 +918,101 @@ main img{
     text-align: center;
 }
 
+
+.reseñas h1 {
+    font-weight: var(--font-wght-bold);
+    font-size: var(--font-size-xl);
+    text-align: center;
+    color: var(--orange);
+    font-family: var(--font-terciary);
+    margin: 0;
+}
+
+.reseñas > p{
+    text-align: center;
+    font-size: var(--font-size-m);
+    font-family: var(--font-terciary);
+    color: var(--black-m);
+    margin: 5px 0 var(--pm-2) 0;
+}
+
 .reseñas .container{
     max-width: var(--max-width);
     width: var(--max-width-full);
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
 }
 
 .reseñas .container .carrusel-reseñas{
+    padding: var(--pm-2);
     display: flex;
+    gap: var(--gap-15);
+    justify-content: center;
 }
 
 .reseñas .container .box{
-    width: 300px;
+    font-family: var(--font-terciary);
+    padding: var(--pm-1);
+    text-align: left;
+    height: fit-content;
+    backdrop-filter: blur(150px);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    flex: 1;
+}
+
+.reseñas .container .box h2{
+    font-size: var(--font-size-m);
+}
+
+.reseñas .container .box p{
+    font-size: var(--font-size-x);
+    text-wrap: balance;
+}
+
+.reseñas .container .box .stars{
+    font-size: var(--font-size-x);
+}
+
+.reseñas .container .sitios-rating{
+    padding: var(--pm-2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: var(--gap-15);
+}
+
+.reseñas .container .sitios-rating .box2{
+    background: var(--white-full);
+    padding: var(--pm-1);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: var(--gap-15);
+}
+
+.reseñas .container .sitios-rating .box2 img{
+    width: 30px;
+}
+
+.reseñas .container .sitios-rating .box2 h3{
+    background: var(--white-full);
+    font-size: var(--font-size-s);
+    margin: 0;
+    font-family: var(--font-terciary);
+}
+
+.reseñas .container .sitios-rating .box2 p{
+    display: flex;
+    font-size: var(--font-size-x);
+    margin: 0;
+}
+
+.reseñas .container .sitios-rating .box2 a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: var(--font-size-x);
+    font-weight: bold;
 }
