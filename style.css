@@ -76,6 +76,7 @@ main {
     --gap-25: 25px;
     --gap-30: 30px;
     --gap-35: 35px;
+    --pm-section: var(--pm-3);
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     /* */
@@ -283,7 +284,7 @@ main video{
 .promotions {
     text-align: left;
     display: flex;
-    padding: var(--pm-3) 0;
+    padding: var(--pm-section) 0;
     transition: var(--transition);
 }
 
@@ -477,7 +478,7 @@ main video{
 .atractions {
     text-align: left;
     display: flex;
-    padding: var(--pm-3) 0;
+    padding: var(--pm-section) 0;
     justify-content: center;
 }
 
@@ -578,7 +579,7 @@ main video{
 
 .caracteristicas {
     display: flex;
-    padding: 0 0 var(--pm-3) 0;
+    padding: 0 0 var(--pm-section) 0;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -624,7 +625,7 @@ main video{
 .servicios {
     text-align: left;
     display: flex;
-    padding: var(--pm-3) 0;
+    padding: var(--pm-section) 0;
     background-image: linear-gradient(to left, var(--orange), var(--red), var(--pink));
     background-size: 200% 200%;
     background-attachment: fixed;
@@ -750,7 +751,7 @@ main video{
 }
 
 .gastronomia{
-    padding: var(--pm-3);
+    padding: var(--pm-section) 0;
 }
 
 .gastronomia swiper-container{
@@ -773,7 +774,7 @@ main video{
     flex-direction: column;
     gap: var(--gap-20);
     width: 50%;
-    padding: 0 var(--pm-2);
+    padding: 0 var(--pm-2) 0 0;
 }
 
 .gastronomia .container .carta .box{
@@ -923,7 +924,7 @@ main video{
 }
 
 .reseñas{
-    padding: var(--pm-3) 0;
+    padding: var(--pm-section) 0;
     text-align: center;
 }
 
