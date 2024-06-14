@@ -192,7 +192,13 @@ main img{
     transform: var(--scale);
 }
 
-.banner .carrusel .image img {
+.banner .carrusel .image video{
+    height: 75vh;
+    width: 100%;
+}
+
+.banner .carrusel .image img,
+.banner .carrusel .image video{
     width: var(--max-width-full);
     height: var(--max-width-full);
     object-fit: cover;
@@ -753,7 +759,7 @@ main img{
     max-width: var(--max-width);
     width: var(--max-width-full);
     display: flex;
-    gap: var(--gap-35);
+    gap: var(--gap-15);
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
