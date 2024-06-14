@@ -594,7 +594,8 @@ main video{
 .caracteristicas .box {
     flex: 1;
     text-align: center;
-    background: var(--white);
+    background: rgba(var(--rgba-white), 0.6);
+    backdrop-filter: var(--blur);
     padding: var(--pm-1);
     border-radius: var(--radius-button);
     box-shadow: var(--shadow);
