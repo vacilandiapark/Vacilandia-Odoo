@@ -965,6 +965,7 @@ main img{
 
 .reseñas .container .box h2{
     font-size: var(--font-size-m);
+    font-family: var(--font-terciary);
 }
 
 .reseñas .container .box p{
