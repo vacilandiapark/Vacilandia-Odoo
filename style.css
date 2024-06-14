@@ -796,7 +796,8 @@ main img{
 
 .gastronomia .container .carta .box .text{
     padding: var(--pm-1);
-    background: var(--white-full);
+    background: rgba(var(--rgba-white), 0.6);
+    backdrop-filter: var(--blur);
     width: 100%;
     box-sizing: border-box;
     display: flex;
