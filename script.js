@@ -3,7 +3,6 @@ const swiperE2 = document.getElementById('carrusel-promotions')
 const swiperE3 = document.getElementById('carrusel-atractions')
 const swiperE4 = document.getElementById('carrusel-servicios')
 const swiperE5 = document.getElementById('carta-banner')
-const swiperE6 = document.getElementById('carrusel-reseñas')
 
 const params = {
   injectStyles: [`
@@ -48,11 +47,9 @@ Object.assign(swiperE2, params)
 Object.assign(swiperE3, params)
 Object.assign(swiperE4, params)
 Object.assign(swiperE5, params)
-Object.assign(swiperE6, params)
 
 swiperEl.initialize();
 swiperE2.initialize();
 swiperE3.initialize();
 swiperE4.initialize();
 swiperE5.initialize();
-swiperE6.initialize();
