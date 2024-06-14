@@ -110,7 +110,7 @@ main img{
 
 .banner .carrusel .image {
     width: var(--max-width-full);
-    height: 85vh;
+    height: 75vh;
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow);
