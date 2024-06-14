@@ -155,6 +155,7 @@ main video{
     margin: 0;
     font-weight: var(--font-wght-bolder);
     font-size: var(--font-size-xl);
+    font-family: var(--font-primary);
 }
 
 .banner .carrusel p {
@@ -368,6 +369,7 @@ main video{
 .promotions .persons h2 {
     font-size: var(--font-size-x);
     color: var(--black-x);
+    font-family: var(--font-primary);
     font-weight: var(--font-wght-light);
     margin: 10px 0 0 0;
 }
@@ -416,6 +418,7 @@ main video{
 }
 
 .promotions .others h3 {
+    font-family: var(--font-primary);
     font-size: var(--font-size-s);
     font-weight: var(--font-wght-bolder);
     color: var(--black-x);
@@ -573,6 +576,7 @@ main video{
     font-size: var(--font-size-s);
     color: var(--white);
     margin: 0;
+    font-family: var(--font-primary);
 }
 
 /* */
@@ -701,6 +705,7 @@ main video{
     margin: 0;
     font-size: var(--font-size-m);
     color: var(--secondary);
+    font-family: var(--font-primary);
     font-weight: var(--font-wght-bolder);
 }
 
