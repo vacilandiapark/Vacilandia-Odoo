@@ -956,7 +956,7 @@ main img{
     padding: var(--pm-1);
     text-align: left;
     height: fit-content;
-    background: var(--white-full);
+    background: rgba(var(--rgba-white), 0.6);
     backdrop-filter: var(--blur);
     box-shadow: var(--shadow);
     border-radius: var(--radius);
