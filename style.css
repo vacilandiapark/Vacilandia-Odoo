@@ -76,7 +76,7 @@ main {
     --gap-25: 25px;
     --gap-30: 30px;
     --gap-35: 35px;
-    --pm-section: var(--pm-3);
+    --pm-section: var(--pm-4);
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     /* */
@@ -401,6 +401,7 @@ main video{
 
 .promotions .price h2 {
     display: flex;
+    font-family: var(--font-primary);
     flex-direction: column;
     font-weight: var(--font-wght-bolder);
     margin: 0;
