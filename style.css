@@ -79,6 +79,7 @@ main {
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     /* */
+    --blur: blur(100px);
     --overlay-bg: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
     --radius-button: 0.375rem;
     --radius: 1.5rem;
@@ -955,7 +956,7 @@ main img{
     padding: var(--pm-1);
     text-align: left;
     height: fit-content;
-    backdrop-filter: blur(150px);
+    backdrop-filter: var(--blur);
     box-shadow: var(--shadow);
     border-radius: var(--radius);
     flex: 1;
