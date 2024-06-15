@@ -285,7 +285,7 @@ main video{
 .promotions {
     text-align: left;
     display: flex;
-    padding: calc(var(--pm-section) - var(--pm-1)) 0;
+    padding: var(--pm-section) 0;
     transition: var(--transition);
 }
 
@@ -302,9 +302,8 @@ main video{
 }
 
 .promotions .carrusel-promotions {
-    max-width: calc(var(--max-width) + var(--pm-1));
+    max-width: var(--max-width);
     width: var(--max-width-full);
-    padding: var(--pm-1);
     overflow: hidden;
     box-sizing: border-box;
 }
