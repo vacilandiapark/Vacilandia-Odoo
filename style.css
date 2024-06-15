@@ -285,7 +285,7 @@ main video{
 .promotions {
     text-align: left;
     display: flex;
-    padding: var(--pm-section) 0;
+    padding: calc(var(--pm-section) - var(--pm-1)) 0;
     transition: var(--transition);
 }
 
@@ -302,8 +302,11 @@ main video{
 }
 
 .promotions .carrusel-promotions {
-    max-width: var(--max-width);
+    max-width: calc(var(--max-width) + var(--pm-1));
     width: var(--max-width-full);
+    padding: var(--pm-1);
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .promotions .card-custom {
@@ -317,11 +320,14 @@ main video{
 
 .promotions .image {
     width: 100%;
+    height: 130px;
     position: relative;
 }
 
 .promotions .image img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: var(--transition);
 }
 
@@ -688,6 +694,7 @@ main video{
 
 .servicios .card-custom .image{
     width: 50%;
+    height: 100%;
     overflow: hidden;
 }
 
