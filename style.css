@@ -101,25 +101,25 @@ main {
 
 /* Estilo para el contenedor del scroll */
 ::-webkit-scrollbar {
-    width: 4px;  /* Ancho de la barra de desplazamiento vertical */
-    height: 4px; /* Ancho de la barra de desplazamiento horizontal */
+    width: 4px !important;  /* Ancho de la barra de desplazamiento vertical */
+    height: 4px !important; /* Ancho de la barra de desplazamiento horizontal */
 }
 
 /* Estilo para el "dedo" de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-    background-color: purple; /* Color morado para el "dedo" */
-    border-radius: 2px;       /* Bordes redondeados para una apariencia más delgada */
+    background-color: purple !important; /* Color morado para el "dedo" */
+    border-radius: 2px !important;       /* Bordes redondeados para una apariencia más delgada */
 }
 
 /* Estilo para el fondo de la barra de desplazamiento */
 ::-webkit-scrollbar-track {
-    background: transparent; /* Fondo transparente */
+    background: transparent !important; /* Fondo transparente */
 }
 
 /* Para navegadores que no soportan -webkit-scrollbar */
 body {
-    scrollbar-width: thin;       /* Ancho de la barra de desplazamiento para Firefox */
-    scrollbar-color: purple transparent; /* Color del "dedo" y el fondo para Firefox */
+    scrollbar-width: thin !important;       /* Ancho de la barra de desplazamiento para Firefox */
+    scrollbar-color: purple transparent !important; /* Color del "dedo" y el fondo para Firefox */
 }
 
 
