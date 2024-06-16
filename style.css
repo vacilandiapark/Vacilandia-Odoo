@@ -114,7 +114,7 @@ main video {
 
 .banner .carrusel .image {
     width: var(--max-width-full);
-    height: 75vh;
+    height: 80vh;
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow);
