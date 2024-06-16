@@ -286,24 +286,29 @@ main video {
 
 .promotions {
     text-align: left;
-    display: flex;
     padding: var(--pm-section) 0;
     transition: var(--transition);
 }
 
 .promotions .categoria {
     font-size: var(--font-size-x);
-    position: absolute;
     color: var(--white);
+    margin: 0;
     padding: var(--padding-labels);
     bottom: 0;
     left: 0;
     z-index: 19;
     font-weight: var(--font-wght-bold);
-    border-radius: var(--radius-button);
-    margin: var(--pm-1);
-    box-shadow: var(--shadow-card-customs);
+    background: var(--secondary);
+    color: var(--white-full);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: var(--gap-5);
 }
+
+/*
 
 .promotions #canchas {
     background: rgba(var(--rgba-green), 1);
@@ -319,6 +324,8 @@ main video {
     background: rgba(var(--rgba-pink), 1);
     box-shadow: var(--shadow-color) var(--pink);
 }
+
+*/
 
 .promotions swiper-slide {
     transition: var(--transition);
@@ -336,7 +343,26 @@ main video {
     max-width: var(--max-width);
     width: var(--max-width-full);
     overflow: hidden;
+    margin: 0 auto;
     box-sizing: border-box;
+}
+
+.promotions > h1 {
+    font-weight: var(--font-wght-bold);
+    font-size: var(--font-size-xl);
+    text-align: center;
+    color: var(--orange);
+    font-family: var(--font-terciary);
+    margin: 0;
+}
+
+.promotions > p {
+    text-align: center;
+    font-size: var(--font-size-m);
+    font-family: var(--font-terciary);
+    font-weight: var(--font-wght-light);
+    color: var(--black-m);
+    margin: 5px 0 var(--pm-2) 0;
 }
 
 .promotions .card-custom {
@@ -350,8 +376,7 @@ main video {
 
 .promotions .image {
     width: 100%;
-    height: 130px;
-    position: relative;
+    height: 170px;
 }
 
 .promotions .image img {
@@ -390,9 +415,9 @@ main video {
     padding: var(--padding-labels);
     font-size: var(--font-size-xs);
     text-decoration: none;
-    color: var(--black-m);
-    border-radius: var(--radius-button);
-    background: var(--gray-light);
+    color: var(--secondary);
+    border-radius: var(--radius);
+    background: var(--gray-dark);
     font-weight: var(--font-wght-bold);
     transition: var(--transition);
 }
@@ -405,13 +430,13 @@ main video {
 
 .promotions .persons h2 {
     font-size: var(--font-size-x);
-    color: var(--black-x);
+    color: var(--black);
     font-weight: var(--font-wght-light);
     margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
 }
 
 .promotions .price {
-    padding: var(--spacing-letter) 0;
+    padding: var(--spacing-letter) 0 0 0;
     display: flex;
     align-items: center;
     border-top: 1px solid var(--gray-dark);
@@ -452,13 +477,18 @@ main video {
     font-size: var(--font-size-x);
 }
 
+.promotions .price .text svg,
+.promotions .price-horario .text svg{
+    color: var(--secondary);
+}
+
 .promotions .price h2 span {
     font-size: var(--font-size-xs);
     font-weight: var(--font-wght-light);
 }
 
 .promotions .price-horario {
-    padding: var(--spacing-letter) 0;
+    padding: var(--spacing-letter) 0 0 0;
     display: flex;
     align-items: center;
     border-top: 1px solid var(--gray-dark);
