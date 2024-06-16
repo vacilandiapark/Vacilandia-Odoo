@@ -89,7 +89,7 @@ main {
     --max-width-full: 100%;
     --shadow-card-customs: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
     --shadow: 0.625rem 1.5rem 3.5rem 0 rgba(0, 0, 0, 0.1215686275);
-    --shadow-color: 0px 7px 29px 0px;
+    --shadow-color: 0.125rem 0.125rem 0.625rem;
     --transition: all 0.3s;
     --scale: scale(1.04);
     transition: var(--transition);
@@ -307,14 +307,17 @@ main video {
 
 .promotions #canchas {
     background: rgba(var(--rgba-green), 1);
+    box-shadow: var(--shadow-color) var(--green);
 }
 
 .promotions #promociones {
     background: rgba(var(--rgba-orange), 1);
+    box-shadow: var(--shadow-color) var(--orange);
 }
 
 .promotions #eventos {
     background: rgba(var(--rgba-pink), 1);
+    box-shadow: var(--shadow-color) var(--pink);
 }
 
 .promotions swiper-slide {
@@ -339,7 +342,8 @@ main video {
 .promotions .card-custom {
     overflow: hidden;
     width: 100%;
-    background: var(--white-full);
+    background: rgba(var(--rgba-white), 0.6);
+    backdrop-filter: var(--blur);
     box-shadow: var(--shadow-card-customs);
     transition: var(--transition);
     border-radius: var(--radius);
