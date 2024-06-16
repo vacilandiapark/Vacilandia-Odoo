@@ -432,6 +432,7 @@ main video{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-weight: var(--font-wght-bold);
     color: var(--black);
     font-size: var(--font-size-s);
 }
