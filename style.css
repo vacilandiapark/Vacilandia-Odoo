@@ -81,7 +81,7 @@ main {
     --padding-labels: 0.325rem 0.7rem;
     --spacing-letter: 12px;
     /* */
-    --blur: blur(100px);
+    --blur: blur(50px);
     --overlay-bg: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
     --radius-button: 0.375rem;
     --radius: 1.5rem;
