@@ -382,6 +382,7 @@ main video {
     display: flex;
     gap: var(--gap-5);
     align-items: center;
+    box-shadow: var(--shadow-card-customs);
     width: fit-content;
     padding: var(--padding-labels);
     font-size: var(--font-size-xs);
@@ -414,6 +415,15 @@ main video {
     justify-content: space-between;
 }
 
+.promotions .price .text{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-5);
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
 .promotions .price p {
     display: flex;
     margin: 0;
@@ -436,7 +446,7 @@ main video {
     margin: 0;
     font-weight: var(--font-wght-bold);
     color: var(--black);
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
 }
 
 .promotions .price h2 span {
@@ -450,6 +460,15 @@ main video {
     align-items: center;
     border-top: 1px solid var(--gray-dark);
     justify-content: space-between;
+}
+
+.promotions .price-horario .text{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-5);
+    height: fit-content;
+    margin: 0;
+    padding: 0;
 }
 
 .promotions .price-horario p {
@@ -468,7 +487,7 @@ main video {
     margin: 0;
     color: var(--black);
     font-weight: var(--font-wght-bold);
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
 }
 
 .promotions .price-horario h2 span {
