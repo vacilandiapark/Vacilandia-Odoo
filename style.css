@@ -289,6 +289,32 @@ main video{
     transition: var(--transition);
 }
 
+.promotions .categoria{
+    font-size: var(--font-size-x);
+    position: absolute;
+    color: var(--white);
+    padding: var(--padding-labels);
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+    font-weight: var(--font-wght-bold);
+    border-radius: var(--radius-button);
+    margin: var(--pm-1);
+    box-shadow: var(--shadow-card-customs);
+}
+
+.promotions #canchas{
+    background: rgba(var(--rgba-green), 1);
+}
+
+.promotions #promociones{
+    background: rgba(var(--rgba-orange), 1);
+}
+
+.promotions #eventos{
+    background: rgba(var(--rgba-pink), 1);
+}
+
 .promotions swiper-slide{
     transition: var(--transition);
 }
@@ -333,21 +359,21 @@ main video{
 .promotions .text {
     box-sizing: border-box;
     padding: var(--pm-1);
+    font-family: var(--font-terciary);
 }
 
 .promotions .text h1 {
     margin: 0;
     font-size: var(--font-size-m);
     color: var(--orange);
-    font-family: var(--font-terciary);
     font-weight: var(--font-wght-bold);
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
 }
 
 .promotions .text p {
     font-size: var(--font-size-x);
     color: var(--black-m);
-    margin: 0 0 20px 0;
+    margin: 5px 0 5px 0;
 }
 
 .promotions .text #terms {
@@ -366,7 +392,7 @@ main video{
 }
 
 .promotions .persons {
-    padding: 0 0 10px 0;
+    padding: 0 0 15px 0;
     margin: 15px 0 0 0;
     border-top: 1px solid var(--gray-dark);
 }
@@ -374,13 +400,12 @@ main video{
 .promotions .persons h2 {
     font-size: var(--font-size-x);
     color: var(--black-x);
-    font-family: var(--font-primary);
     font-weight: var(--font-wght-light);
-    margin: 10px 0 0 0;
+    margin: 10px 0 10px 0;
 }
 
 .promotions .price {
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     border-top: 1px solid var(--gray-dark);
@@ -390,12 +415,11 @@ main video{
 .promotions .price p {
     display: flex;
     margin: 0;
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-x);
     font-weight: var(--font-wght-bold);
     color: var(--primary);
     flex-direction: column;
     text-align: right;
-    font-family: var(--font-terciary);
 }
 
 .promotions .price p span {
@@ -406,16 +430,45 @@ main video{
 
 .promotions .price h2 {
     display: flex;
-    font-family: var(--font-primary);
     flex-direction: column;
-    font-weight: var(--font-wght-bolder);
     margin: 0;
     color: var(--black);
     font-size: var(--font-size-s);
 }
 
 .promotions .price h2 span {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-wght-light);
+}
+
+.promotions .price-horario {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--gray-dark);
+    justify-content: space-between;
+}
+
+.promotions .price-horario p {
+    display: flex;
+    margin: 0;
     font-size: var(--font-size-x);
+    font-weight: var(--font-wght-bold);
+    color: var(--primary);
+    flex-direction: column;
+    text-align: right;
+}
+
+.promotions .price-horario h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: var(--black);
+    font-size: var(--font-size-s);
+}
+
+.promotions .price-horario h2 span {
+    font-size: var(--font-size-xs);
     font-weight: var(--font-wght-light);
 }
 
@@ -424,11 +477,9 @@ main video{
 }
 
 .promotions .others h3 {
-    font-family: var(--font-primary);
     font-size: var(--font-size-s);
-    font-weight: var(--font-wght-bolder);
-    color: var(--black-x);
-    margin: 15px 0 15px 0;
+    color: var(--black);
+    margin: 10px 0 10px 0;
 }
 
 .promotions .others .box {
@@ -456,7 +507,7 @@ main video{
 }
 
 .promotions #cuponidad {
-    background: #ffaa00;
+    background: #FE6700;
 }
 
 .promotions .button {
