@@ -342,8 +342,7 @@ main video {
 .promotions .card-custom {
     overflow: hidden;
     width: 100%;
-    background: rgba(var(--rgba-white), 0.6);
-    backdrop-filter: var(--blur);
+    background: var(--white-full);
     box-shadow: var(--shadow-card-customs);
     transition: var(--transition);
     border-radius: var(--radius);
