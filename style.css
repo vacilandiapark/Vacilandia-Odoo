@@ -4,7 +4,7 @@ body {
     background: var(--gray-light);
 }
 
-.swiper{
+.swiper {
     overflow: none !important;
 }
 
@@ -88,7 +88,7 @@ main {
     --max-width: 1000px;
     --max-width-full: 100%;
     --shadow-card-customs: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
-    --shadow: 0.625rem 1.5rem 3.5rem 0 rgba(0,0,0,0.1215686275);
+    --shadow: 0.625rem 1.5rem 3.5rem 0 rgba(0, 0, 0, 0.1215686275);
     --shadow-color: 0px 7px 29px 0px;
     --transition: all 0.3s;
     --scale: scale(1.04);
@@ -98,7 +98,7 @@ main {
 }
 
 main img,
-main video{
+main video {
     filter: saturate(150%);
 }
 
@@ -196,13 +196,13 @@ main video{
     transform: var(--scale);
 }
 
-.banner .carrusel .image video{
+.banner .carrusel .image video {
     height: 75vh;
     width: 100%;
 }
 
 .banner .carrusel .image img,
-.banner .carrusel .image video{
+.banner .carrusel .image video {
     width: var(--max-width-full);
     height: var(--max-width-full);
     object-fit: cover;
@@ -216,7 +216,7 @@ main video{
     background: var(--white-full);
 }
 
-.navigation .box{
+.navigation .box {
     background: var(--white-full);
 }
 
@@ -290,7 +290,7 @@ main video{
     transition: var(--transition);
 }
 
-.promotions .categoria{
+.promotions .categoria {
     font-size: var(--font-size-x);
     position: absolute;
     color: var(--white);
@@ -304,19 +304,19 @@ main video{
     box-shadow: var(--shadow-card-customs);
 }
 
-.promotions #canchas{
+.promotions #canchas {
     background: rgba(var(--rgba-green), 1);
 }
 
-.promotions #promociones{
+.promotions #promociones {
     background: rgba(var(--rgba-orange), 1);
 }
 
-.promotions #eventos{
+.promotions #eventos {
     background: rgba(var(--rgba-pink), 1);
 }
 
-.promotions swiper-slide{
+.promotions swiper-slide {
     transition: var(--transition);
 }
 
@@ -559,7 +559,7 @@ main video{
     margin: 0;
 }
 
-.atractions p{
+.atractions p {
     text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
@@ -699,20 +699,20 @@ main video{
     box-shadow: inset var(--shadow);
 }
 
-.servicios .container{
+.servicios .container {
     overflow: hidden;
 }
 
-@keyframes gradient{
-    0%{
+@keyframes gradient {
+    0% {
         background-position: 0% 0%;
     }
 
-    50%{
+    50% {
         background-position: 100% 100%;
     }
 
-    100%{
+    100% {
         background-position: 0% 0%;
     }
 }
@@ -722,7 +722,7 @@ main video{
     display: flex;
 }
 
-.servicios .card-custom{
+.servicios .card-custom {
     height: 230px !important;
     overflow: hidden;
     box-shadow: var(--shadow-card-customs);
@@ -734,24 +734,24 @@ main video{
 }
 
 
-.servicios .card-custom:hover .image img{
+.servicios .card-custom:hover .image img {
     transform: var(--scale);
 }
 
-.servicios .card-custom img{
+.servicios .card-custom img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
 }
 
-.servicios .card-custom .image{
+.servicios .card-custom .image {
     width: 50%;
     height: 100%;
     overflow: hidden;
 }
 
-.servicios .card-custom .text{
+.servicios .card-custom .text {
     background: var(--white);
     display: flex;
     flex-direction: column;
@@ -762,7 +762,7 @@ main video{
     height: 100%;
 }
 
-.servicios .card-custom .text h2{
+.servicios .card-custom .text h2 {
     margin: 0;
     font-size: var(--font-size-m);
     color: var(--secondary);
@@ -770,7 +770,7 @@ main video{
     font-weight: var(--font-wght-bolder);
 }
 
-.servicios .card-custom .text p{
+.servicios .card-custom .text p {
     font-size: var(--font-size-s);
     color: var(--black-m);
     text-align: left;
@@ -807,7 +807,7 @@ main video{
     margin: 0;
 }
 
-.servicios p{
+.servicios p {
     text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
@@ -816,15 +816,15 @@ main video{
     margin: 5px 0 var(--pm-2) 0;
 }
 
-.gastronomia{
+.gastronomia {
     padding: var(--pm-section) 0;
 }
 
-.gastronomia swiper-container{
+.gastronomia swiper-container {
     overflow: hidden !important;
 }
 
-.gastronomia .container{
+.gastronomia .container {
     max-width: var(--max-width);
     width: var(--max-width-full);
     display: flex;
@@ -834,7 +834,7 @@ main video{
     margin: 0 auto;
 }
 
-.gastronomia .container .carta{
+.gastronomia .container .carta {
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -843,7 +843,7 @@ main video{
     padding: 0 var(--pm-2) 0 0;
 }
 
-.gastronomia .container .carta .box{
+.gastronomia .container .carta .box {
     display: flex;
     align-items: center;
     height: 100px;
@@ -853,23 +853,23 @@ main video{
     transition: var(--transition);
 }
 
-.gastronomia .container .carta .box:hover{
+.gastronomia .container .carta .box:hover {
     box-shadow: var(--shadow-card-customs);
 }
 
-.gastronomia .container .carta .box .image{
+.gastronomia .container .carta .box .image {
     width: 150px;
     height: 100px;
     border-radius: var(--radius-button);
 }
 
-.gastronomia .container .carta .box .image img{
+.gastronomia .container .carta .box .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.gastronomia .container .carta .box .text{
+.gastronomia .container .carta .box .text {
     padding: var(--pm-1);
     background: rgba(var(--rgba-white), 0.6);
     backdrop-filter: var(--blur);
@@ -881,7 +881,7 @@ main video{
     height: 100%;
 }
 
-.gastronomia .container .carta a{
+.gastronomia .container .carta a {
     color: var(--primary);
     text-decoration: none;
     font-size: var(--font-size-m);
@@ -890,7 +890,7 @@ main video{
     font-family: var(--font-terciary);
 }
 
-.gastronomia .container .carta .box .text h2{
+.gastronomia .container .carta .box .text h2 {
     margin: 0;
     font-weight: var(--font-wght-bold);
     font-size: var(--font-size-m);
@@ -898,24 +898,24 @@ main video{
     color: var(--black-m);
 }
 
-.gastronomia .container .carta .box .text p{
+.gastronomia .container .carta .box .text p {
     font-size: var(--font-size-s);
     color: var(--black-x);
     margin: 5px 0 0 0;
 }
 
-.gastronomia .banner-carta{
+.gastronomia .banner-carta {
     width: 50%;
     text-align: left;
 }
 
-.gastronomia .banner-carta .image-carta{
+.gastronomia .banner-carta .image-carta {
     width: 100%;
     border-radius: var(--radius);
     overflow: hidden;
 }
 
-.gastronomia .banner-carta .image-carta img{
+.gastronomia .banner-carta .image-carta img {
     transform: scale(1.04);
     width: 100%;
     height: 100%;
@@ -923,15 +923,15 @@ main video{
     transition: var(--transition);
 }
 
-.gastronomia .banner-carta .image-carta:hover img{
+.gastronomia .banner-carta .image-carta:hover img {
     transform: scale(1.07);
 }
 
-.gastronomia .banner-carta .text{
+.gastronomia .banner-carta .text {
     padding: var(--pm-1) 0;
 }
 
-.gastronomia .banner-carta .text h3{
+.gastronomia .banner-carta .text h3 {
     font-weight: var(--font-wght-bold);
     margin: 5px 0 0 0;
     font-size: var(--font-size-m);
@@ -939,18 +939,18 @@ main video{
     font-family: var(--font-terciary);
 }
 
-.gastronomia .banner-carta .text p{
+.gastronomia .banner-carta .text p {
     font-size: var(--font-size-s);
     color: var(--black-m);
     margin: 10px 0 15px 0;
 }
 
-.gastronomia .banner-carta .text .button{
+.gastronomia .banner-carta .text .button {
     display: flex;
     gap: var(--gap-5);
 }
 
-.gastronomia .banner-carta .text .button a{
+.gastronomia .banner-carta .text .button a {
     display: block;
     width: fit-content;
     padding: var(--padding-button);
@@ -980,7 +980,7 @@ main video{
     margin: 0;
 }
 
-.gastronomia > h4{
+.gastronomia>h4 {
     text-align: center;
     font-size: var(--font-size-m);
     font-weight: var(--font-wght-light);
@@ -989,7 +989,7 @@ main video{
     margin: 5px 0 var(--pm-2) 0;
 }
 
-.reseñas{
+.reseñas {
     padding: var(--pm-section) 0;
     text-align: center;
 }
@@ -1004,7 +1004,7 @@ main video{
     margin: 0;
 }
 
-.reseñas > p{
+.reseñas>p {
     text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
@@ -1012,21 +1012,21 @@ main video{
     margin: 5px 0 var(--pm-2) 0;
 }
 
-.reseñas .container{
+.reseñas .container {
     max-width: var(--max-width);
     width: var(--max-width-full);
     margin: 0 auto;
     display: flex;
 }
 
-.reseñas .container .carrusel-reseñas{
+.reseñas .container .carrusel-reseñas {
     padding: var(--pm-2);
     display: flex;
     gap: var(--gap-15);
     justify-content: center;
 }
 
-.reseñas .container .box{
+.reseñas .container .box {
     font-family: var(--font-terciary);
     padding: var(--pm-1);
     text-align: left;
@@ -1039,22 +1039,22 @@ main video{
     transition: var(--transition);
 }
 
-.reseñas .container .box h2{
-    font-weight: var(--font-wght-bold) ;
+.reseñas .container .box h2 {
+    font-weight: var(--font-wght-bold);
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
 }
 
-.reseñas .container .box p{
+.reseñas .container .box p {
     font-size: var(--font-size-x);
     text-wrap: balance;
 }
 
-.reseñas .container .box .stars{
+.reseñas .container .box .stars {
     font-size: var(--font-size-x);
 }
 
-.reseñas .container .sitios-rating{
+.reseñas .container .sitios-rating {
     padding: var(--pm-2);
     width: 100%;
     display: flex;
@@ -1063,7 +1063,7 @@ main video{
     gap: var(--gap-15);
 }
 
-.reseñas .container .sitios-rating .box2{
+.reseñas .container .sitios-rating .box2 {
     background: var(--white-full);
     padding: var(--pm-1);
     border-radius: var(--radius);
@@ -1074,24 +1074,24 @@ main video{
     transition: var(--transition);
 }
 
-.reseñas .container .sitios-rating .box2 img{
+.reseñas .container .sitios-rating .box2 img {
     width: 30px;
 }
 
-.reseñas .container .sitios-rating .box2 h3{
+.reseñas .container .sitios-rating .box2 h3 {
     background: var(--white-full);
     font-size: var(--font-size-s);
     margin: 0;
     font-family: var(--font-terciary);
 }
 
-.reseñas .container .sitios-rating .box2 p{
+.reseñas .container .sitios-rating .box2 p {
     display: flex;
     font-size: var(--font-size-x);
     margin: 0;
 }
 
-.reseñas .container .sitios-rating .box2 a{
+.reseñas .container .sitios-rating .box2 a {
     text-decoration: none;
     color: var(--primary);
     font-size: var(--font-size-x);
@@ -1099,6 +1099,117 @@ main video{
 }
 
 .reseñas .box:hover,
-.reseñas .box2:hover{
+.reseñas .box2:hover {
     box-shadow: var(--shadow-card-customs);
+}
+
+/* */
+
+#boton_de_whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 5;
+}
+
+#boton_de_whatsapp #whatsapp-icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+}
+
+#boton_de_whatsapp #whatsapp-icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#boton_de_whatsapp #whatsapp-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* Añade el box-shadow para la primera onda */
+    box-shadow: 0 0 0 0 rgba(0, 255, 51, 0.8);
+    /* Inicia la animación */
+    animation: colorWaveAnimation1 1.5s infinite;
+    /* Asegura que el pseudo-elemento esté detrás del icono */
+    z-index: -1;
+}
+
+#boton_de_whatsapp #whatsapp-icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* Añade el box-shadow para la segunda onda */
+    box-shadow: 0 0 0 0 rgba(0, 255, 51, 0.8);
+    /* Inicia la animación con un retraso para que no se sincronicen */
+    animation: colorWaveAnimation2 1.5s infinite;
+    animation-delay: 0.5s;
+    /* Asegura que el pseudo-elemento esté detrás del icono */
+    z-index: -1;
+}
+
+#boton_de_whatsapp #whatsapp-icon img:hover {
+    filter: brightness(150%);
+}
+
+/* ANIMACIONES PARA EL BOTÓN DE WHATSAPP */
+@keyframes colorWaveAnimation1 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 51, 0.8);
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: 0 0 0 50px rgba(0, 255, 51, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes colorWaveAnimation2 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 255, 51, 0.8);
+        opacity: 0.7;
+    }
+
+    100% {
+        box-shadow: 0 0 0 50px rgba(0, 255, 51, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes jellyAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
