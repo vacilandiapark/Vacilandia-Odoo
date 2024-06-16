@@ -367,7 +367,7 @@ main video{
     font-size: var(--font-size-m);
     color: var(--orange);
     font-weight: var(--font-wght-bold);
-    margin: 0 0 0 0;
+    margin: 0 0 10px 0;
 }
 
 .promotions .text p {
