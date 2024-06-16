@@ -283,6 +283,8 @@ main video{
 /* */
 
 .promotions {
+    background: rgba(233, 234, 237, 0.5);
+    backdrop-filter: var(--blur);
     text-align: left;
     display: flex;
     padding: var(--pm-section) 0;
