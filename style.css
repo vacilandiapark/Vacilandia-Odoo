@@ -465,6 +465,7 @@ main video{
     flex-direction: column;
     margin: 0;
     color: var(--black);
+    font-weight: var(--font-wght-bold);
     font-size: var(--font-size-s);
 }
 
