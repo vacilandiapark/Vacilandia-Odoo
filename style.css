@@ -79,6 +79,7 @@ main {
     --pm-section: var(--pm-4);
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
+    --spacing-letter: 12px;
     /* */
     --blur: blur(100px);
     --overlay-bg: linear-gradient(to top, rgba(var(--rgba-black), 0.8), transparent);
@@ -283,8 +284,6 @@ main video{
 /* */
 
 .promotions {
-    background: rgba(233, 234, 237, 0.5);
-    backdrop-filter: var(--blur);
     text-align: left;
     display: flex;
     padding: var(--pm-section) 0;
@@ -369,13 +368,13 @@ main video{
     font-size: var(--font-size-m);
     color: var(--orange);
     font-weight: var(--font-wght-bold);
-    margin: 0 0 10px 0;
+    margin: 0 0 var(--spacing-letter) 0;
 }
 
 .promotions .text p {
     font-size: var(--font-size-x);
     color: var(--black-m);
-    margin: 5px 0 5px 0;
+    margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
 }
 
 .promotions .text #terms {
@@ -394,8 +393,8 @@ main video{
 }
 
 .promotions .persons {
-    padding: 0 0 15px 0;
-    margin: 15px 0 0 0;
+    padding: 0 0 var(--spacing-letter) 0;
+    margin: var(--spacing-letter) 0 0 0;
     border-top: 1px solid var(--gray-dark);
 }
 
@@ -403,11 +402,11 @@ main video{
     font-size: var(--font-size-x);
     color: var(--black-x);
     font-weight: var(--font-wght-light);
-    margin: 10px 0 10px 0;
+    margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
 }
 
 .promotions .price {
-    padding: 10px 0;
+    padding: var(--spacing-letter) 0;
     display: flex;
     align-items: center;
     border-top: 1px solid var(--gray-dark);
@@ -445,7 +444,7 @@ main video{
 }
 
 .promotions .price-horario {
-    padding: 10px 0;
+    padding: var(--spacing-letter) 0;
     display: flex;
     align-items: center;
     border-top: 1px solid var(--gray-dark);
@@ -483,7 +482,7 @@ main video{
 .promotions .others h3 {
     font-size: var(--font-size-s);
     color: var(--black);
-    margin: 10px 0 10px 0;
+    margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
 }
 
 .promotions .others .box {
