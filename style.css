@@ -49,7 +49,7 @@ main {
     --font-size-3xl: 2.5rem;
     --font-size-xxl: 2rem;
     --font-size-xl: 1.8rem;
-    --font-size-l: 1.5rem;
+    --font-size-l: 1.2rem;
     --font-size-m: 0.9rem;
     --font-size-s: 0.775rem;
     --font-size-x: 0.700rem;
@@ -1346,6 +1346,7 @@ background-color: inherit;
     align-items: center;
     justify-content: center;
     color: var(--white-full);
+    background: linear-gradient(1turn, rgba(0, 0, 0, .3), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
 }
 
 .banner-2 .banner-2-container:hover img{
@@ -1353,10 +1354,10 @@ background-color: inherit;
 }
 
 .banner-2 .banner-2-container .overlay h1{
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: var(--font-wght-light);
     letter-spacing: 2px;
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-3xl);
     text-shadow: var(--text-shadow);
     font-family: var(--font-cuaternay);
 }
@@ -1380,4 +1381,24 @@ background-color: inherit;
 .banner-2 .banner-2-container .overlay a:hover {
     background: var(--gray-light);
     color: var(--black-m);
+}
+
+/* */
+
+.title{
+    padding: var(--pm-section) 0;
+    text-align: center;
+}
+
+.title h2{
+    font-family: var(--font-cuaternay);
+    font-weight: var(--font-wght-light);
+    color: var(--red);
+    font-size: var(--font-size-xxl);
+}
+
+.title p{
+    color: var(--black-m);
+    font-size: var(--font-size-l);
+    text-wrap: balance;
 }
