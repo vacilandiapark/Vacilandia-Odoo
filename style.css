@@ -1274,7 +1274,8 @@ main video {
 }
 
 .banner-2{
-
+    width: var(--max-width-full);
+    text-align: center;
 }
 
 .banner-2 .container{
