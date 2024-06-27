@@ -78,7 +78,7 @@ main {
     --gap-25: 25px;
     --gap-30: 30px;
     --gap-35: 35px;
-    --pm-section: var(--pm-4);
+    --pm-section: 4.657rem;
     --padding-button: 0.725rem 1rem;
     --padding-labels: 0.325rem 0.7rem;
     --spacing-letter: 12px;
