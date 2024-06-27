@@ -92,7 +92,7 @@ main {
     --shadow-card-customs: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
     --shadow: 0.625rem 1.5rem 3.5rem 0 rgba(0, 0, 0, 0.1215686275);
     --shadow-color: 0.125rem 0.125rem 0.625rem;
-    --text-shadow: 0 2px 4px rgba(16, 24, 40, .06), 0 4px 8px rgba(16, 24, 40, .1);
+    --text-shadow: 15px 15px 30px rgba(0, 0, 0, 1);
     --transition: all 0.3s;
     --scale: scale(1.04);
     transition: var(--transition);
@@ -165,7 +165,7 @@ main video {
     font-family: var(--font-cuaternay);
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: 15px 15px 30px rgba(0, 0, 0, 1); /* Sombra grande y completamente oscura */
+    text-shadow: var(--text-shadow) /* Sombra grande y completamente oscura */
 }
 
 .banner .carrusel p {
@@ -173,7 +173,7 @@ main video {
     text-wrap: balance;
     color: var(--white-full);
     margin: 10px 0 15px 0;
-    text-shadow: 15px 15px 30px rgba(0, 0, 0, 1); /* Sombra grande y completamente oscura */
+    text-shadow: var(--text-shadow); /* Sombra grande y completamente oscura */
 }
 
 .banner .carrusel .buttons {
