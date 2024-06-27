@@ -132,6 +132,7 @@ main video {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(1turn, rgba(0, 0, 0, .5), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
 }
 
 .banner .carrusel .overlay .text {
@@ -163,7 +164,7 @@ main video {
     font-size: var(--font-size-xl);
     font-family: var(--font-cuaternay);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    font-weight: var(--font-wght-light);
     text-shadow: var(--text-shadow) /* Sombra grande y completamente oscura */
 }
 
@@ -360,11 +361,11 @@ main video {
 }
 
 .promotions > h1 {
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
     color: var(--orange);
-    font-family: var(--font-terciary);
+    font-family: var(--font-cuaternay);
     margin: 0;
 }
 
@@ -608,6 +609,7 @@ main video {
     display: flex;
     padding: var(--pm-section) 0;
     justify-content: center;
+    background: var(--yellow);
 }
 
 .atractions .carrusel-atractions {
@@ -616,11 +618,11 @@ main video {
 }
 
 .atractions h1 {
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
-    color: var(--orange);
-    font-family: var(--font-terciary);
+    color: var(--white-full);
+    font-family: var(--font-cuaternay);
     margin: 0;
 }
 
@@ -629,7 +631,7 @@ main video {
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
-    color: var(--black-m);
+    color: var(--white-full);
     margin: 5px 0 var(--pm-2) 0;
 }
 
@@ -864,11 +866,11 @@ main video {
 }
 
 .servicios h1 {
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
     color: var(--white);
-    font-family: var(--font-terciary);
+    font-family: var(--font-cuaternay);
     margin: 0;
 }
 
@@ -876,7 +878,7 @@ main video {
     text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     color: var(--white);
     margin: 5px 0 var(--pm-2) 0;
 }
@@ -1037,11 +1039,11 @@ main video {
 }
 
 .gastronomia h1 {
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
     color: var(--orange);
-    font-family: var(--font-terciary);
+    font-family: var(--font-cuaternay);
     margin: 0;
 }
 
@@ -1061,11 +1063,11 @@ main video {
 
 
 .reseñas h1 {
-    font-weight: var(--font-wght-bold);
+    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
     color: var(--orange);
-    font-family: var(--font-terciary);
+    font-family: var(--font-cuaternay);
     margin: 0;
 }
 
@@ -1319,7 +1321,7 @@ main video {
 
 .banner-2 .banner-2-container .overlay h1{
     margin: 10px 0;
-    font-weight: var(--font-wght-bolder);
+    font-weight: var(--font-wght-light);
     letter-spacing: 2px;
     font-size: var(--font-size-xl);
     text-shadow: var(--text-shadow);
