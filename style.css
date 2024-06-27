@@ -1278,7 +1278,7 @@ main video {
     text-align: center;
 }
 
-.banner-2 .container{
+.banner-2 .banner-2-container{
     width: 100%;
     height: 75vh;
     position: relative;
@@ -1286,14 +1286,14 @@ main video {
     overflow: hidden;
 }
 
-.banner-2 .container img{
+.banner-2 .banner-2-container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
 }
 
-.banner-2 .container .overlay{
+.banner-2 .banner-2-container .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -1308,11 +1308,11 @@ main video {
     color: var(--white-full);
 }
 
-.banner-2 .container:hover img{
+.banner-2 .banner-2-container:hover img{
     transform: var(--scale);
 }
 
-.banner-2 .container .overlay h1{
+.banner-2 .banner-2-container .overlay h1{
     margin: 10px 0;
     font-weight: bolder;
     font-size: var(--font-size-3xl);
@@ -1320,7 +1320,7 @@ main video {
     font-family: var(--font-terciary);
 }
 
-.banner-2 .container .overlay a {
+.banner-2 .banner-2-container .overlay a {
     display: block;
     width: fit-content;
     padding: var(--padding-button);
@@ -1336,7 +1336,7 @@ main video {
     font-family: var(--font-terciary);
 }
 
-.banner-2 .container .overlay a:hover {
+.banner-2 .banner-2-container .overlay a:hover {
     background: var(--gray-light);
     color: var(--black-m);
 }
