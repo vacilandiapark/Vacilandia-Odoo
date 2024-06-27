@@ -872,14 +872,14 @@ main video {
 .servicios h1 {
     font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
-    text-align: center;
+    text-align: left;
     color: var(--white);
     font-family: var(--font-cuaternay);
     margin: 0;
 }
 
 .servicios p {
-    text-align: center;
+    text-align: left;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
