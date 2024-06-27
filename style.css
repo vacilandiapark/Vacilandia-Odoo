@@ -353,7 +353,7 @@ main video {
 }
 
 .promotions swiper-slide:hover {
-    transform: var(--scale);
+    box-shadow: var(--shadow-card-customs);
 }
 
 .promotions swiper-slide:hover .image img {
@@ -382,12 +382,41 @@ main video {
     overflow: hidden;
     width: 100%;
     background: var(--white-full);
-    box-shadow: var(--shadow-card-customs);
     transition: var(--transition);
     border-radius: var(--radius);
 }
 
+.promotions .card-custom .image::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% calc(100% - 1px));
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% calc(100% - 1px));
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    z-index: 99;
+}
+
+/*
+background-color: inherit;
+    bottom: calc(100% - 1px);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% calc(100% - 1px));
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% calc(100% - 1px));
+    content: "";
+    height: var(--shape-height);
+    height: 32px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+*/
+
 .promotions .image {
+    overflow: hidden;
+    position: relative;
     width: 100%;
     height: 170px;
 }
@@ -408,7 +437,7 @@ main video {
 .promotions .text h1 {
     margin: 0;
     font-size: var(--font-size-m);
-    color: var(--orange);
+    color: var(--black-m);
     font-weight: var(--font-wght-bold);
     margin: 0 0 var(--spacing-letter) 0;
 }
