@@ -1399,6 +1399,6 @@ background-color: inherit;
 
 .title p{
     color: var(--black-m);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-m);
     text-wrap: balance;
 }
