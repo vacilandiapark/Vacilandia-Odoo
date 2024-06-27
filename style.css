@@ -160,11 +160,10 @@ main video {
 
 .banner .carrusel h2 {
     margin: 0;
-    font-weight: var(--font-wght-bolder);
     font-size: var(--font-size-xl);
     font-family: var(--font-cuaternay);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-shadow: var(--text-shadow) /* Sombra grande y completamente oscura */
 }
 
