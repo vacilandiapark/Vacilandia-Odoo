@@ -130,16 +130,17 @@ main video {
     top: 0;
     left: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background: linear-gradient(1turn, rgba(0, 0, 0, .3), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
+    background: linear-gradient(1turn, rgba(0, 0, 0, .7), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
 }
 
 .banner .carrusel .overlay .text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: var(--pm-4);
+    margin: 0 var(--pm-4);
     color: var(--white);
 }
 
@@ -165,7 +166,6 @@ main video {
     font-family: var(--font-cuaternay);
     text-transform: uppercase;
     font-weight: var(--font-wght-light);
-    text-shadow: var(--text-shadow) /* Sombra grande y completamente oscura */
 }
 
 .banner .carrusel p {
@@ -777,6 +777,11 @@ background-color: inherit;
     flex-direction: column;
     align-items: center;
     gap: var(--gap-10);
+    transition: var(--transition);
+}
+
+.caracteristicas .box:hover{
+    box-shadow: none;
 }
 
 .caracteristicas .box h2 {
@@ -1353,7 +1358,7 @@ background-color: inherit;
     align-items: center;
     justify-content: center;
     color: var(--white-full);
-    background: linear-gradient(1turn, rgba(0, 0, 0, .3), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
+    background: linear-gradient(1turn, rgba(0, 0, 0, .7), transparent 59.27%), linear-gradient(0deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
 }
 
 .banner-2 .banner-2-container:hover img{
@@ -1362,11 +1367,10 @@ background-color: inherit;
 
 .banner-2 .banner-2-container .overlay h1{
     margin: 15px 0;
-    font-weight: var(--font-wght-light);
-    letter-spacing: 2px;
     font-size: var(--font-size-xl);
-    text-shadow: var(--text-shadow);
     font-family: var(--font-cuaternay);
+    text-transform: uppercase;
+    font-weight: var(--font-wght-light);
 }
 
 .banner-2 .banner-2-container .overlay a {
