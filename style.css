@@ -56,7 +56,7 @@ main {
     /* ESTILOS FUENTES */
     --font-size-3xl: 2.5rem;
     --font-size-xxl: 2rem;
-    --font-size-xl: 1.8rem;
+    --font-size-xl: 1.6rem;
     --font-size-l: 1.2rem;
     --font-size-m: 0.9rem;
     --font-size-s: 0.775rem;
@@ -65,7 +65,6 @@ main {
     --font-secondary: "Onest", sans-serif;
     --font-primary: "Urbanist", sans-serif;
     --font-terciary: "Titillium Web", sans-serif;
-    --font-cuaternay: "Bowlby One SC", sans-serif;
     --font-wght-bolder: 900;
     --font-wght-bold: 700;
     --font-wght-light: 400;
@@ -172,9 +171,9 @@ main video {
 .banner .carrusel h2 {
     margin: 0;
     font-size: var(--font-size-xl);
-    font-family: var(--font-cuaternay);
+    font-family: var(--font-terciary);
     text-transform: uppercase;
-    font-weight: var(--font-wght-light);
+    font-weight: var(--font-wght-bolder);
 }
 
 .banner .carrusel p {
@@ -368,21 +367,27 @@ main video {
 }
 
 .promotions > h1 {
-    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: center;
     color: var(--orange);
-    font-family: var(--font-cuaternay);
-    margin: 0;
+    font-family: var(--font-terciary);
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
+    font-weight: var(--font-wght-bold);
 }
 
 .promotions > p {
     text-align: center;
     font-size: var(--font-size-m);
-    font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
     color: var(--black-m);
-    margin: 5px 0 var(--pm-2) 0;
+    margin: 5px auto var(--pm-2) auto;
+    font-family: var(--font-terciary);
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
 }
 
 .promotions .card-custom {
@@ -663,12 +668,15 @@ background-color: inherit;
 }
 
 .atractions h1 {
-    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: left;
     color: var(--white-full);
-    font-family: var(--font-cuaternay);
-    margin: 0;
+    font-family: var(--font-terciary);
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
+    font-weight: var(--font-wght-bold);
 }
 
 .atractions p {
@@ -916,12 +924,14 @@ background-color: inherit;
 }
 
 .servicios h1 {
-    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
-    text-align: left;
     color: var(--white);
-    font-family: var(--font-cuaternay);
-    margin: 0;
+    font-family: var(--font-terciary);
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
+    font-weight: var(--font-wght-bold);
 }
 
 .servicios p {
@@ -1089,21 +1099,26 @@ background-color: inherit;
 }
 
 .gastronomia h1 {
-    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
-    text-align: center;
     color: var(--orange);
-    font-family: var(--font-cuaternay);
     margin: 0;
+    font-family: var(--font-terciary);
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
+    font-weight: var(--font-wght-bold);
 }
 
 .gastronomia>h4 {
-    text-align: center;
     font-size: var(--font-size-m);
     font-weight: var(--font-wght-light);
-    font-family: var(--font-terciary);
     color: var(--black-m);
-    margin: 5px 0 var(--pm-2) 0;
+    margin: 5px auto var(--pm-2) auto;
+    font-family: var(--font-terciary);
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
 }
 
 .reseñas {
@@ -1113,20 +1128,24 @@ background-color: inherit;
 
 
 .reseñas h1 {
-    font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
-    text-align: center;
     color: var(--orange);
-    font-family: var(--font-cuaternay);
-    margin: 0;
+    font-family: var(--font-terciary);
+    margin: 0 auto;
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
+    font-weight: var(--font-wght-bold);
 }
 
 .reseñas>p {
-    text-align: center;
     font-size: var(--font-size-m);
-    font-family: var(--font-terciary);
     color: var(--black-m);
-    margin: 5px 0 var(--pm-2) 0;
+    margin: 5px auto var(--pm-2) auto;
+    font-family: var(--font-terciary);
+    max-width: var(--max-width);
+    width: var(--max-width-full);
+    text-align: left;
 }
 
 .reseñas .container {
@@ -1134,10 +1153,11 @@ background-color: inherit;
     width: var(--max-width-full);
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    gap: var(--gap-35);
 }
 
 .reseñas .container .carrusel-reseñas {
-    padding: var(--pm-2);
     display: flex;
     gap: var(--gap-15);
     justify-content: center;
@@ -1172,7 +1192,6 @@ background-color: inherit;
 }
 
 .reseñas .container .sitios-rating {
-    padding: var(--pm-2);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1369,9 +1388,9 @@ background-color: inherit;
 .banner-2 .banner-2-container .overlay h1{
     margin: 15px 0;
     font-size: var(--font-size-xl);
-    font-family: var(--font-cuaternay);
+    font-family: var(--font-terciary);
     text-transform: uppercase;
-    font-weight: var(--font-wght-light);
+    font-weight: var(--font-wght-bolder);
 }
 
 .banner-2 .banner-2-container .overlay a {
@@ -1393,26 +1412,6 @@ background-color: inherit;
 .banner-2 .banner-2-container .overlay a:hover {
     background: var(--gray-light);
     color: var(--black-m);
-}
-
-/* */
-
-.title{
-    padding: var(--pm-section) 0;
-    text-align: center;
-}
-
-.title h2{
-    font-family: var(--font-cuaternay);
-    font-weight: var(--font-wght-light);
-    color: var(--orange);
-    font-size: var(--font-size-xxl);
-}
-
-.title p{
-    color: var(--black-m);
-    font-size: var(--font-size-m);
-    text-wrap: balance;
 }
 
 /*  */
