@@ -8,6 +8,13 @@ body {
     overflow: none !important;
 }
 
+/* 
+    TITULOS: NARANJA
+    BOTONES: ROSADO
+    TITULOS EN FONDO OSCURO: BLANCO
+    BOTONES EN FONDO OSCURO: BLANCO
+*/
+
 main {
     overflow: hidden;
 
@@ -58,7 +65,7 @@ main {
     --font-secondary: "Onest", sans-serif;
     --font-primary: "Urbanist", sans-serif;
     --font-terciary: "Titillium Web", sans-serif;
-    --font-cuaternay: "Bowlby One SC", sans-serif;
+    --font-cuaternay: "Poppins", sans-serif;
     --font-wght-bolder: 900;
     --font-wght-bold: 700;
     --font-wght-light: 400;
