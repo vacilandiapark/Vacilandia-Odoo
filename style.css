@@ -1398,7 +1398,7 @@ background-color: inherit;
 .title h2{
     font-family: var(--font-cuaternay);
     font-weight: var(--font-wght-light);
-    color: var(--primary);
+    color: var(--orange);
     font-size: var(--font-size-xxl);
 }
 
