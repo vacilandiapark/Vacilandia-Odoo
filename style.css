@@ -442,12 +442,14 @@ background-color: inherit;
     color: var(--black-m);
     font-weight: var(--font-wght-bold);
     margin: 0 0 var(--spacing-letter) 0;
+    font-family: var(--font-primary);
 }
 
 .promotions .text p {
     font-size: var(--font-size-x);
     color: var(--black-m);
     margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
+    font-family: var(--font-terciary);
 }
 
 .promotions .text #terms {
@@ -477,6 +479,7 @@ background-color: inherit;
     color: var(--black);
     font-weight: var(--font-wght-light);
     margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
+    font-family: var(--font-terciary);
 }
 
 .promotions .price {
