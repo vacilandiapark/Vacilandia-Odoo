@@ -1397,7 +1397,7 @@ background-color: inherit;
 .title h2{
     font-family: var(--font-cuaternay);
     font-weight: var(--font-wght-light);
-    color: var(--secondary);
+    color: var(--primary);
     font-size: var(--font-size-xxl);
 }
 
@@ -1427,9 +1427,6 @@ background-color: inherit;
     align-items: center;
     justify-content: space-between;
     height: ;
-    background: var(--red);
-    border-radius: var(--radius-button);
-    overflow: hidden;
 }
 
 .list-item .container-list .box .image{
@@ -1437,6 +1434,8 @@ background-color: inherit;
     width: 100%;
     position: relative;
 }
+
+/*
 
 .list-item .container-list .box .image::after{
     content: "";
@@ -1451,6 +1450,8 @@ background-color: inherit;
     z-index: 99;
 }
 
+*/
+
 .list-item .container-list .box .image img{
     width: 100%;
     height: 100%;
@@ -1464,25 +1465,16 @@ background-color: inherit;
 }
 
 .list-item .container-list .box .text h2{
-    color: var(--white-full);
     font-family: var(--font-cuaternay);
     font-size: var(--font-size-xxl);
     font-weight: var(--font-wght-light);
     margin: 0;
+    color: var(--primary);
     line-height: 1.1;
 }
 
-.list-item .container-list .box .text h3{
-    color: var(--white);
-    margin: 5px 0;
-    font-family: var(--font-primary);
-    font-weight: var(--font-wght-light);
-    font-size: var(--font-size-m);
-    text-transform: uppercase;
-}
-
 .list-item .container-list .box .text p{
-    color: var(--white-full);
+    color: var(--black-m);
     font-size: var(--font-size-m);
     margin: 1.767rem 0;
 }
@@ -1493,10 +1485,10 @@ background-color: inherit;
     padding: var(--padding-button);
     font-size: var(--font-size-s);
     font-weight: var(--font-wght-bold);
-    color: var(--black-m);
+    color: var(--white);
     text-decoration: none;
     text-align: center;
-    background: var(--white-full);
+    background: var(--primary);
     transition: var(--transition);
     border-radius: var(--radius-button);
     box-sizing: border-box;
