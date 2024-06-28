@@ -284,6 +284,7 @@ main video {
     align-items: center;
     gap: var(--gap-5);
     color: var(--black-m);
+    font-family: var(--font-terciary);
 }
 
 .navigation .box svg{
