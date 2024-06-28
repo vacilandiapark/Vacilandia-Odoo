@@ -374,7 +374,7 @@ main video {
     margin: 0 auto;
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
     font-weight: var(--font-wght-bold);
 }
 
@@ -387,7 +387,6 @@ main video {
     font-family: var(--font-terciary);
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
 }
 
 .promotions .card-custom {
@@ -675,12 +674,12 @@ background-color: inherit;
     margin: 0 auto;
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
     font-weight: var(--font-wght-bold);
 }
 
 .atractions p {
-    text-align: left;
+    text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
@@ -930,12 +929,12 @@ background-color: inherit;
     margin: 0 auto;
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
     font-weight: var(--font-wght-bold);
 }
 
 .servicios p {
-    text-align: left;
+    text-align: center;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
