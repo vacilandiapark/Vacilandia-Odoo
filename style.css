@@ -1101,12 +1101,11 @@ background-color: inherit;
 .gastronomia h1 {
     font-size: var(--font-size-xl);
     color: var(--orange);
-    margin: 0;
     font-family: var(--font-terciary);
     margin: 0 auto;
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
     font-weight: var(--font-wght-bold);
 }
 
@@ -1118,7 +1117,7 @@ background-color: inherit;
     font-family: var(--font-terciary);
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
 }
 
 .reseñas {
@@ -1134,7 +1133,7 @@ background-color: inherit;
     margin: 0 auto;
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
     font-weight: var(--font-wght-bold);
 }
 
@@ -1145,7 +1144,7 @@ background-color: inherit;
     font-family: var(--font-terciary);
     max-width: var(--max-width);
     width: var(--max-width-full);
-    text-align: left;
+    text-align: center;
 }
 
 .reseñas .container {
