@@ -569,6 +569,7 @@ background-color: inherit;
     color: var(--black);
     font-weight: var(--font-wght-bold);
     font-size: var(--font-size-x);
+    font-family: var(--font-terciary);
 }
 
 .promotions .price-horario h2 span {
