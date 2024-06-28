@@ -805,7 +805,6 @@ background-color: inherit;
     animation: gradient 5s ease infinite;
     animation-delay: 1s;
     justify-content: center;
-    box-shadow: inset var(--shadow);
 }
 
 .servicios .container {
