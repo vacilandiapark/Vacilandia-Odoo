@@ -1460,6 +1460,7 @@ background-color: inherit;
 .list-item .container-list .box .text{
     box-sizing: border-box;
     padding: 0 var(--pm-3);
+    text-align: left;
 }
 
 .list-item .container-list .box .text h2{
