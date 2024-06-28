@@ -799,7 +799,7 @@ background-color: inherit;
     text-align: left;
     display: flex;
     padding: var(--pm-section) 0;
-    background-image: linear-gradient(to left, var(--orange), var(--red), var(--pink));
+    background: linear-gradient(to left, rgba(var(--rgba-pink), 0.1), rgba(var(--rgba-cyan), 0.1), rgba(var(--rgba-red), 0.1));
     background-size: 200% 200%;
     background-attachment: fixed;
     animation: gradient 5s ease infinite;
@@ -911,7 +911,7 @@ background-color: inherit;
     font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: left;
-    color: var(--white);
+    color: var(--black);
     font-family: var(--font-cuaternay);
     margin: 0;
 }
@@ -921,7 +921,7 @@ background-color: inherit;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
-    color: var(--white);
+    color: var(--black-m);
     margin: 5px 0 var(--pm-2) 0;
 }
 
