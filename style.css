@@ -250,6 +250,7 @@ main video {
     display: flex;
     text-decoration: none;
     justify-content: center;
+    font-family: var(--font-terciary);
     transition: var(--transition);
     border-right: 1px solid var(--gray-dark);
     box-sizing: border-box;
