@@ -642,7 +642,7 @@ background-color: inherit;
     display: flex;
     padding: var(--pm-section) 0;
     justify-content: center;
-    background: linear-gradient(to left, rgba(var(--rgba-pink), 0.1), rgba(var(--rgba-cyan), 0.1), rgba(var(--rgba-red), 0.1));
+    background-image: linear-gradient(to left, var(--yellow), var(--orange));
     background-size: 200% 200%;
     background-attachment: fixed;
     animation: gradient 5s ease infinite;
@@ -658,7 +658,7 @@ background-color: inherit;
     font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: left;
-    color: var(--black);
+    color: var(--white-full);
     font-family: var(--font-cuaternay);
     margin: 0;
 }
@@ -668,7 +668,7 @@ background-color: inherit;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
-    color: var(--black-m);
+    color: var(--white-full);
     margin: 5px 0 var(--pm-2) 0;
 }
 
@@ -799,12 +799,13 @@ background-color: inherit;
     text-align: left;
     display: flex;
     padding: var(--pm-section) 0;
-    background: linear-gradient(to left, rgba(var(--rgba-pink), 0.1), rgba(var(--rgba-cyan), 0.1), rgba(var(--rgba-red), 0.1));
+    background-image: linear-gradient(to left, var(--orange), var(--red), var(--pink));
     background-size: 200% 200%;
     background-attachment: fixed;
     animation: gradient 5s ease infinite;
     animation-delay: 1s;
     justify-content: center;
+    box-shadow: inset var(--shadow);
 }
 
 .servicios .container {
@@ -910,7 +911,7 @@ background-color: inherit;
     font-weight: var(--font-wght-light);
     font-size: var(--font-size-xl);
     text-align: left;
-    color: var(--black);
+    color: var(--white);
     font-family: var(--font-cuaternay);
     margin: 0;
 }
@@ -920,7 +921,7 @@ background-color: inherit;
     font-size: var(--font-size-m);
     font-family: var(--font-terciary);
     font-weight: var(--font-wght-light);
-    color: var(--black-m);
+    color: var(--white);
     margin: 5px 0 var(--pm-2) 0;
 }
 
