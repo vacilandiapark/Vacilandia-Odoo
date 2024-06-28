@@ -442,7 +442,7 @@ background-color: inherit;
     color: var(--black-m);
     font-weight: var(--font-wght-bold);
     margin: 0 0 var(--spacing-letter) 0;
-    font-family: var(--font-primary);
+    font-family: var(--font-terciary);
 }
 
 .promotions .text p {
@@ -522,6 +522,7 @@ background-color: inherit;
     font-weight: var(--font-wght-bold);
     color: var(--black);
     font-size: var(--font-size-x);
+    font-family: var(--font-terciary);
 }
 
 .promotions .price .text svg,
