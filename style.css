@@ -52,7 +52,7 @@ main {
     --black-m: #2e2e2e;
     --bg-button: ;
     --bg-secondary: rgb(246, 246, 246);
-    --bg-fade: linear-gradient(to left, var(--orange), var(--red), var(--pink));
+    --bg-fade: linear-gradient(to left, var(--yellow), var(--red), var(--pink));
     /* ESTILOS FUENTES */
     --font-size-3xl: 2.5rem;
     --font-size-xxl: 2rem;
