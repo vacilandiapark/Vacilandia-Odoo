@@ -64,7 +64,7 @@ main {
     --font-size-xs: 0.600rem;
     --font-secondary: "Onest", sans-serif;
     --font-primary: "Urbanist", sans-serif;
-    --font-terciary: "Titillium Web", sans-serif;
+    --font-terciary: "Barlow", sans-serif;
     --font-wght-bolder: 900;
     --font-wght-bold: 700;
     --font-wght-light: 400;
@@ -450,7 +450,7 @@ background-color: inherit;
     font-size: var(--font-size-m);
     color: var(--black-m);
     font-weight: var(--font-wght-bold);
-    margin: 0 0 var(--spacing-letter) 0;
+    margin: var(--spacing-letter) 0 var(--spacing-letter) 0;
     font-family: var(--font-terciary);
 }
 
@@ -889,7 +889,7 @@ background-color: inherit;
 .servicios .card-custom .text h2 {
     margin: 0;
     font-size: var(--font-size-m);
-    color: var(--secondary);
+    color: var(--black-m);
     font-family: var(--font-primary);
     font-weight: var(--font-wght-bolder);
 }
